@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MDSmartPrintStoreContainer" CdmEntityContainer="EntitiesSmartPrint">
+    <FunctionImportMapping FunctionImportName="BuscarCliente" FunctionName="MDSmartPrint.Store.BuscarCliente" />
+    <FunctionImportMapping FunctionImportName="BuscarEmpleado" FunctionName="MDSmartPrint.Store.BuscarEmpleado" />
+    <FunctionImportMapping FunctionImportName="BuscarProveedor" FunctionName="MDSmartPrint.Store.BuscarProveedor" />
+    <FunctionImportMapping FunctionImportName="Loguin" FunctionName="MDSmartPrint.Store.Loguin">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MDSmartPrint.Loguin_Result">
+          <ScalarProperty Name="CedulaEmpleado" ColumnName="CedulaEmpleado" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Contraseña" ColumnName="Contraseña" />
+          <ScalarProperty Name="Perfil" ColumnName="Perfil" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ModificarCliente" FunctionName="MDSmartPrint.Store.ModificarCliente" />
+    <FunctionImportMapping FunctionImportName="ModificarEmpleado" FunctionName="MDSmartPrint.Store.ModificarEmpleado" />
+    <FunctionImportMapping FunctionImportName="ModificarProveedor" FunctionName="MDSmartPrint.Store.ModificarProveedor" />
+    <FunctionImportMapping FunctionImportName="RegistrarCliente" FunctionName="MDSmartPrint.Store.RegistrarCliente" />
+    <FunctionImportMapping FunctionImportName="RegistrarEmpleado" FunctionName="MDSmartPrint.Store.RegistrarEmpleado" />
+    <FunctionImportMapping FunctionImportName="RegistrarProveedor" FunctionName="MDSmartPrint.Store.RegistrarProveedor" />
+    <EntitySetMapping Name="Cliente">
+      <EntityTypeMapping TypeName="MDSmartPrint.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="Habilitar" ColumnName="Habilitar" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Ext" ColumnName="Ext" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empleado">
+      <EntityTypeMapping TypeName="MDSmartPrint.Empleado">
+        <MappingFragment StoreEntitySet="Empleado">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="FechadeRetiro" ColumnName="FechadeRetiro" />
+          <ScalarProperty Name="Disponibilidad" ColumnName="Disponibilidad" />
+          <ScalarProperty Name="FechadeIngreso" ColumnName="FechadeIngreso" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+          <ScalarProperty Name="FechadeNacimiento" ColumnName="FechadeNacimiento" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="SegundoApellido" ColumnName="SegundoApellido" />
+          <ScalarProperty Name="PrimerApellido" ColumnName="PrimerApellido" />
+          <ScalarProperty Name="SegundoNombre" ColumnName="SegundoNombre" />
+          <ScalarProperty Name="PrimerNombre" ColumnName="PrimerNombre" />
+          <ScalarProperty Name="CedulaEmpleado" ColumnName="CedulaEmpleado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Factura">
+      <EntityTypeMapping TypeName="MDSmartPrint.Factura">
+        <MappingFragment StoreEntitySet="Factura">
+          <ScalarProperty Name="Impuesto" ColumnName="Impuesto" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="ValorIva" ColumnName="ValorIva" />
+          <ScalarProperty Name="ValorTotal" ColumnName="ValorTotal" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+          <ScalarProperty Name="FechaFactura" ColumnName="FechaFactura" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="CcNit" ColumnName="CcNit" />
+          <ScalarProperty Name="NumeroOrdSer" ColumnName="NumeroOrdSer" />
+          <ScalarProperty Name="NumeroFactura" ColumnName="NumeroFactura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdenServicio">
+      <EntityTypeMapping TypeName="MDSmartPrint.OrdenServicio">
+        <MappingFragment StoreEntitySet="OrdenServicio">
+          <ScalarProperty Name="ValorTotal" ColumnName="ValorTotal" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="FechaOrden" ColumnName="FechaOrden" />
+          <ScalarProperty Name="Asignado" ColumnName="Asignado" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="NumeroRemision" ColumnName="NumeroRemision" />
+          <ScalarProperty Name="NumeroOrden" ColumnName="NumeroOrden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OtrosServicios">
+      <EntityTypeMapping TypeName="MDSmartPrint.OtrosServicios">
+        <MappingFragment StoreEntitySet="OtrosServicios">
+          <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Idproveedor" ColumnName="Idproveedor" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proveedores">
+      <EntityTypeMapping TypeName="MDSmartPrint.Proveedores">
+        <MappingFragment StoreEntitySet="Proveedores">
+          <ScalarProperty Name="Habilitar" ColumnName="Habilitar" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Ext" ColumnName="Ext" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Contacto" ColumnName="Contacto" />
+          <ScalarProperty Name="RazonSocial" ColumnName="RazonSocial" />
+          <ScalarProperty Name="Nit" ColumnName="Nit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Remisión">
+      <EntityTypeMapping TypeName="MDSmartPrint.Remisión">
+        <MappingFragment StoreEntitySet="Remisión">
+          <ScalarProperty Name="Item" ColumnName="Item" />
+          <ScalarProperty Name="ValorTotal" ColumnName="ValorTotal" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+          <ScalarProperty Name="FechaRemision" ColumnName="FechaRemision" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="CcNit" ColumnName="CcNit" />
+          <ScalarProperty Name="NumeroRemision" ColumnName="NumeroRemision" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RemisionOtroServicios">
+      <EntityTypeMapping TypeName="MDSmartPrint.RemisionOtroServicios">
+        <MappingFragment StoreEntitySet="RemisionOtroServicios">
+          <ScalarProperty Name="CodigoOtroServicio" ColumnName="CodigoOtroServicio" />
+          <ScalarProperty Name="NumeroRemision" ColumnName="NumeroRemision" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RemisionServicos">
+      <EntityTypeMapping TypeName="MDSmartPrint.RemisionServicos">
+        <MappingFragment StoreEntitySet="RemisionServicos">
+          <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+          <ScalarProperty Name="Item" ColumnName="Item" />
+          <ScalarProperty Name="NumeroRemision" ColumnName="NumeroRemision" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Servicios">
+      <EntityTypeMapping TypeName="MDSmartPrint.Servicios">
+        <MappingFragment StoreEntitySet="Servicios">
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Item" ColumnName="Item" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="MDSmartPrint.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Perfil" ColumnName="Perfil" />
+          <ScalarProperty Name="Contraseña" ColumnName="Contraseña" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="CedulaEmpleado" ColumnName="CedulaEmpleado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

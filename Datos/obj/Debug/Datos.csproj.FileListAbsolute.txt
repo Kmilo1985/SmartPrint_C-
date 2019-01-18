@@ -1,0 +1,199 @@
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Diablo\Downloads\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Diablo\Downloads\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Diablo\Downloads\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Diablo\Downloads\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Diablo\Downloads\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Diablo\Downloads\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Diablo\Downloads\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Diablo\Downloads\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Diablo\Downloads\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Diablo\Downloads\SmartPrint\Datos\obj\Debug\Datos.pdb
+D:\Deysi\SmartPrint\Datos\bin\Debug\Datos.dll.config
+D:\Deysi\SmartPrint\Datos\bin\Debug\Datos.dll
+D:\Deysi\SmartPrint\Datos\bin\Debug\Datos.pdb
+D:\Deysi\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+D:\Deysi\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+D:\Deysi\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+D:\Deysi\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+D:\Deysi\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+D:\Deysi\SmartPrint\Datos\obj\Debug\Datos.dll
+D:\Deysi\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Alex Gallego\Downloads\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Alex Gallego\Downloads\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Alex Gallego\Downloads\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Alex Gallego\Downloads\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Alex Gallego\Downloads\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alex Gallego\Downloads\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Alex Gallego\Downloads\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alex Gallego\Downloads\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Alex Gallego\Downloads\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Noche\Desktop\Smart\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Noche\Desktop\Smart\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Noche\Desktop\Smart\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Noche\Desktop\Smart\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Noche\Desktop\Smart\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Noche\Desktop\Smart\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Noche\Desktop\Smart\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Noche\Desktop\Smart\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Noche\Desktop\Smart\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Noche\Desktop\Smart\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Administrador\Desktop\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Administrador\Desktop\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Administrador\Desktop\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Administrador\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Administrador\Desktop\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Diablo\Downloads\sMART\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Diablo\Desktop\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Diablo\Desktop\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Diablo\Desktop\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Diablo\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Diablo\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Diablo\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Diablo\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Diablo\Desktop\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Diablo\Desktop\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Alex Gallego\Downloads\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Deisy\Downloads\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Deisy\Downloads\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Deisy\Downloads\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Deisy\Downloads\SmartPrint\Datos\obj\Debug\Datos.pdb
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Datos\bin\Debug\Datos.dll.config
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Datos\bin\Debug\Datos.dll
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Datos\bin\Debug\Datos.pdb
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Datos\obj\Debug\Datos.dll
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Datos\obj\Debug\Datos.pdb
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Datos\obj\Debug\Datos.pdb
+G:\Proyecto_Entregar\SmartPrint\Datos\bin\Debug\Datos.dll.config
+G:\Proyecto_Entregar\SmartPrint\Datos\bin\Debug\Datos.dll
+G:\Proyecto_Entregar\SmartPrint\Datos\bin\Debug\Datos.pdb
+G:\Proyecto_Entregar\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+G:\Proyecto_Entregar\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+G:\Proyecto_Entregar\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+G:\Proyecto_Entregar\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+G:\Proyecto_Entregar\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+G:\Proyecto_Entregar\SmartPrint\Datos\obj\Debug\Datos.dll
+G:\Proyecto_Entregar\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Deisy\Desktop\SmartPrint\Datos\bin\Debug\Datos.dll.config
+C:\Users\Deisy\Desktop\SmartPrint\Datos\bin\Debug\Datos.dll
+C:\Users\Deisy\Desktop\SmartPrint\Datos\bin\Debug\Datos.pdb
+C:\Users\Deisy\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Deisy\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Desktop\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Deisy\Desktop\SmartPrint\Datos\obj\Debug\Datos.dll
+C:\Users\Deisy\Desktop\SmartPrint\Datos\obj\Debug\Datos.pdb
+C:\Users\Deisy\Desktop\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+D:\todo\SmartPrint\Datos\bin\Debug\Datos.dll.config
+D:\todo\SmartPrint\Datos\bin\Debug\Datos.dll
+D:\todo\SmartPrint\Datos\bin\Debug\Datos.pdb
+D:\todo\SmartPrint\Datos\bin\Debug\EntityFramework.dll
+D:\todo\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.dll
+D:\todo\SmartPrint\Datos\bin\Debug\EntityFramework.xml
+D:\todo\SmartPrint\Datos\bin\Debug\EntityFramework.SqlServer.xml
+D:\todo\SmartPrint\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+D:\todo\SmartPrint\Datos\obj\Debug\Datos.dll
+D:\todo\SmartPrint\Datos\obj\Debug\Datos.pdb

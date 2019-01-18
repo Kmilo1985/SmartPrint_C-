@@ -1,0 +1,9 @@
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\bin\Release\Logica.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\bin\Release\Logica.pdb
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\bin\Release\Datos.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\bin\Release\EntityFramework.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\bin\Release\Datos.pdb
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\bin\Release\EntityFramework.xml
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\obj\Release\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\obj\Release\Logica.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\obj\Release\Logica.pdb

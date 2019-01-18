@@ -1,0 +1,661 @@
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Diablo\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+F:\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+F:\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+F:\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+D:\Deysi\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+D:\Deysi\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+D:\Deysi\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+D:\Deysi\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+D:\Deysi\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+D:\Deysi\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+D:\Deysi\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+D:\Deysi\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+D:\Deysi\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+D:\Deysi\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Alex Gallego\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Alex Gallego\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Noche\Desktop\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Diablo\Downloads\Smart\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Administrador\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Reportes.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Reportes.resources
+G:\Proyecto_Entregar\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteFactura.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteOrden.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteRemision.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\RdlCompile.cache
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\RdlCompile.compiled
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmConsultas.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmConsultas.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteFactura.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralOrden.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralRemision.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteOrden.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteRemision.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.ReporteGeneralFactura.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\RdlCompile.cache
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\RdlCompile.compiled
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmConsultas.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteFactura.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralOrden.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralRemision.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteOrden.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteRemision.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.ReporteGeneralFactura.resources
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\RdlCompile.cache
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\SmartPrint\obj\Debug\RdlCompile.compiled
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmConsultas.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteFactura.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralOrden.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralRemision.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteOrden.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteRemision.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.ReporteGeneralFactura.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\RdlCompile.cache
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\RdlCompile.compiled
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmDian.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmConsultas.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmDian.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteFactura.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralOrden.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralRemision.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteOrden.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteRemision.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.ReporteGeneralFactura.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\RdlCompile.cache
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\RdlCompile.compiled
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaClientes.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaEmpleados.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaProveedore.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaClientes.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaEmpleados.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaProveedore.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmDian.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaClientes.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaEmpleados.resources
+C:\Users\Diablo\Desktop\SmartPrint\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaProveedore.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmConsultas.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmDian.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMora.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Menú.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteFactura.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralOrden.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralRemision.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteOrden.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteRemision.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.ReporteGeneralFactura.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaClientes.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaDian.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaEmpleados.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaProveedore.resources
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\RdlCompile.cache
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\SmartPrint\obj\Debug\RdlCompile.compiled
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmConsultas.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmDian.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMora.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteFactura.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralOrden.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralRemision.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteOrden.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteRemision.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.ReporteGeneralFactura.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaClientes.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaDian.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaEmpleados.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaProveedore.resources
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmDian.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMora.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Menú.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralOrden.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralRemision.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.ReporteGeneralFactura.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaClientes.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaDian.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaEmpleados.resources
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaProveedore.resources
+D:\todo\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe.config
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.exe
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.pdb
+D:\todo\SmartPrint\SmartPrint\bin\Debug\SmartPrint.exe
+D:\todo\SmartPrint\SmartPrint\bin\Debug\SmartPrint.pdb
+D:\todo\SmartPrint\SmartPrint\bin\Debug\Logica.dll
+D:\todo\SmartPrint\SmartPrint\bin\Debug\Datos.dll
+D:\todo\SmartPrint\SmartPrint\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\todo\SmartPrint\SmartPrint\bin\Debug\EntityFramework.dll
+D:\todo\SmartPrint\SmartPrint\bin\Debug\Logica.pdb
+D:\todo\SmartPrint\SmartPrint\bin\Debug\Datos.pdb
+D:\todo\SmartPrint\SmartPrint\bin\Debug\EntityFramework.xml
+D:\todo\SmartPrint\SmartPrint\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csprojResolveAssemblyReference.cache
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmClientes.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmConsultas.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmDian.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmEmpleado.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmFactura.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmInicio.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMenu.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmMora.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOrdenServicio.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmOtrosServicios.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmProveedores.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmRemision.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmServicios.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmSplash.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.FrmUsuarios.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteFactura.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.ReporteGeneralFactura.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralOrden.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteGeneralRemision.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteOrden.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.Properties.Resources.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.MostrarReporteRemision.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaClientes.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaDian.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaEmpleados.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.VistaProveedore.resources
+D:\todo\SmartPrint\SmartPrint\obj\Debug\SmartPrint.csproj.GenerateResource.Cache
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll

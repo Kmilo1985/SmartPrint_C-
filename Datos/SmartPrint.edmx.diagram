@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="49e668365c73441383378a00f440b66d" Name="Diagram1">
+        <EntityTypeShape EntityType="MDSmartPrint.Cliente" Width="1.5" PointX="0.75" PointY="5.5" />
+        <EntityTypeShape EntityType="MDSmartPrint.Empleado" Width="1.5" PointX="9.75" PointY="9.25" />
+        <EntityTypeShape EntityType="MDSmartPrint.Factura" Width="1.5" PointX="7.5" PointY="8" />
+        <EntityTypeShape EntityType="MDSmartPrint.OrdenServicio" Width="1.5" PointX="5.25" PointY="8.25" />
+        <EntityTypeShape EntityType="MDSmartPrint.OtrosServicios" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="MDSmartPrint.Proveedores" Width="1.5" PointX="0.75" PointY="10.25" />
+        <EntityTypeShape EntityType="MDSmartPrint.Remisión" Width="1.5" PointX="3" PointY="5.125" />
+        <EntityTypeShape EntityType="MDSmartPrint.RemisionOtroServicios" Width="1.5" PointX="5.25" PointY="5.125" />
+        <EntityTypeShape EntityType="MDSmartPrint.RemisionServicos" Width="1.5" PointX="8.25" PointY="5" />
+        <EntityTypeShape EntityType="MDSmartPrint.Servicios" Width="1.5" PointX="6" PointY="2.125" />
+        <EntityTypeShape EntityType="MDSmartPrint.Usuarios" Width="1.5" PointX="12" PointY="10.375" />
+        <AssociationConnector Association="MDSmartPrint.FkRemisionCliente" />
+        <AssociationConnector Association="MDSmartPrint.FkUsuarioEmpleado" />
+        <AssociationConnector Association="MDSmartPrint.FkFacturaOrden" />
+        <AssociationConnector Association="MDSmartPrint.FkOrdenRemision" />
+        <AssociationConnector Association="MDSmartPrint.CodOS" />
+        <AssociationConnector Association="MDSmartPrint.FkProveeOtros" />
+        <AssociationConnector Association="MDSmartPrint.FkNumeroRs" />
+        <AssociationConnector Association="MDSmartPrint.PkRemiOtroServicio" />
+        <AssociationConnector Association="MDSmartPrint.FkItemRemiServi" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,2217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>2.23356cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>6.10677cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.2902cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.44815cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.46473cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox1">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>CÓDIGO</Value>
+                              <Style>
+                                <FontFamily>Century Gothic</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox4">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>NOMBRE</Value>
+                              <Style>
+                                <FontFamily>Century Gothic</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox4</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox3">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>VALOR UNITARIO</Value>
+                              <Style>
+                                <FontFamily>Century Gothic</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox3</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox52">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>CANTIDAD</Value>
+                              <Style>
+                                <FontFamily>Century Gothic</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox52</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox5">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>SUBTOTAL</Value>
+                              <Style>
+                                <FontFamily>Century Gothic</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox5</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Item">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Item.Value</Value>
+                              <Style>
+                                <FontFamily>Century Gothic</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Item</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="NombreServicio">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!NombreServicio.Value</Value>
+                              <Style>
+                                <FontFamily>Century Gothic</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>NombreServicio</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ValorUnitario">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!ValorUnitario.Value</Value>
+                              <Style>
+                                <FontFamily>Century Gothic</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ValorUnitario</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Cantidad">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Cantidad.Value</Value>
+                              <Style>
+                                <FontFamily>Century Gothic</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Cantidad</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="SubtotalSer">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!SubtotalSer.Value</Value>
+                              <Style>
+                                <FontFamily>Century Gothic</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>SubtotalSer</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="Detalles" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSetFactura</DataSetName>
+        <Top>12.58044cm</Top>
+        <Left>1.08617cm</Left>
+        <Height>1.2cm</Height>
+        <Width>16.54341cm</Width>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <FontFamily>Century Gothic</FontFamily>
+        </Style>
+      </Tablix>
+      <Textbox Name="Textbox36">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>C.C/NIT:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox36</rd:DefaultName>
+        <Top>9.32816cm</Top>
+        <Left>3.49388cm</Left>
+        <Height>0.6cm</Height>
+        <Width>1.57396cm</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="TextbCC">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Cedula.Value, "DataSetFactura")</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <Top>9.32816cm</Top>
+        <Left>5.24423cm</Left>
+        <Height>0.6cm</Height>
+        <Width>4.0875cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>White</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox38">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Nombre/Razón Social:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox38</rd:DefaultName>
+        <Top>8.55177cm</Top>
+        <Left>1.08617cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.98167cm</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="TextNombre">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Nombre.Value, "DataSetFactura")</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <Top>8.55177cm</Top>
+        <Left>5.24423cm</Left>
+        <Height>0.6cm</Height>
+        <Width>12.38535cm</Width>
+        <ZIndex>4</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>White</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox40">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Teléfono:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox36</rd:DefaultName>
+        <Top>10.10455cm</Top>
+        <Left>12.03154cm</Left>
+        <Height>0.6cm</Height>
+        <Width>1.67979cm</Width>
+        <ZIndex>5</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox41">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Dirección:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox36</rd:DefaultName>
+        <Top>10.10455cm</Top>
+        <Left>3.14992cm</Left>
+        <Height>0.6cm</Height>
+        <Width>1.91792cm</Width>
+        <ZIndex>6</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="TextboxDireccion">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Direccion.Value, "DataSetFactura")</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <Top>10.10455cm</Top>
+        <Left>5.24423cm</Left>
+        <Height>0.6cm</Height>
+        <Width>6.01896cm</Width>
+        <ZIndex>7</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>White</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="TextboTelefono">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Telefono.Value, "DataSetFactura")</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <Top>10.10455cm</Top>
+        <Left>13.88773cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.74185cm</Width>
+        <ZIndex>8</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>White</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="TextFactura">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!NumeroFactura.Value, "DataSetFactura")</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <Color>White</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <Top>2.56479cm</Top>
+        <Left>13.57737cm</Left>
+        <Height>0.6cm</Height>
+        <Width>4.0875cm</Width>
+        <ZIndex>9</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>SteelBlue</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox74">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Descuento:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox74</rd:DefaultName>
+        <Top>17.66532cm</Top>
+        <Left>13.16696cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.07667cm</Width>
+        <ZIndex>10</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="TxtTotal">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!ValorIva.Value, "DataSetFactura")</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <Top>16.11254cm</Top>
+        <Left>15.42001cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.39417cm</Width>
+        <ZIndex>11</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>White</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="FechaVencimiento">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!FechaFactura.Value, "DataSetFactura")</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <Format>dd/MM/yyyy</Format>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <Top>3.34118cm</Top>
+        <Left>13.57737cm</Left>
+        <Height>0.6cm</Height>
+        <Width>4.0875cm</Width>
+        <ZIndex>12</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>White</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="TextoFechavencimiento">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!FechaVencimiento.Value, "DataSetFactura")</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <Format>dd/MM/yyyy</Format>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <Top>4.11757cm</Top>
+        <Left>13.57737cm</Left>
+        <Height>0.6cm</Height>
+        <Width>4.0875cm</Width>
+        <ZIndex>13</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>White</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox50">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Estado:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox36</rd:DefaultName>
+        <Top>1.61201cm</Top>
+        <Left>12.96473cm</Left>
+        <Height>0.6cm</Height>
+        <Width>1.44167cm</Width>
+        <ZIndex>14</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textestado">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!estado.Value, "DataSetFactura")</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <Color>White</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <Top>1.61201cm</Top>
+        <Left>14.58279cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.08208cm</Width>
+        <ZIndex>15</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>SteelBlue</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox49">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>SubTotal:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox36</rd:DefaultName>
+        <Top>15.33615cm</Top>
+        <Left>13.5196cm</Left>
+        <Height>0.6cm</Height>
+        <Width>1.72403cm</Width>
+        <ZIndex>16</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox75">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Iva(16%):</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox74</rd:DefaultName>
+        <Top>16.11254cm</Top>
+        <Left>13.51092cm</Left>
+        <Height>0.6cm</Height>
+        <Width>1.73271cm</Width>
+        <ZIndex>17</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Txtsubtotal">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!SubTotal.Value, "DataSetFactura")</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <Top>15.33615cm</Top>
+        <Left>15.42001cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.39417cm</Width>
+        <ZIndex>18</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>White</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="TxtTotalDescuento">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Descuento.Value, "DataSetFactura")</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <Top>17.66532cm</Top>
+        <Left>15.42001cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.39417cm</Width>
+        <ZIndex>19</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>White</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Txtimpuesto">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Label>Impuesto</Label>
+                <Value>=First(Fields!Impuestos.Value, "DataSetFactura")</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <Top>16.88893cm</Top>
+        <Left>15.42001cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.39417cm</Width>
+        <ZIndex>20</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>White</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox77">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>TOTAL:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox74</rd:DefaultName>
+        <Top>18.86805cm</Top>
+        <Left>13.92303cm</Left>
+        <Height>0.6cm</Height>
+        <Width>1.3206cm</Width>
+        <ZIndex>21</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="TxtTotal5">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Label>Total</Label>
+                <Value>=First(Fields!Total.Value, "DataSetFactura")</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <Color>White</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <Top>18.86805cm</Top>
+        <Left>15.42001cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.39417cm</Width>
+        <ZIndex>22</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>SteelBlue</BackgroundColor>
+          <PaddingLeft>1pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>1pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Line Name="Line1">
+        <Top>2.3884cm</Top>
+        <Left>1.12146cm</Left>
+        <Height>0cm</Height>
+        <Width>16.54341cm</Width>
+        <ZIndex>23</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Line>
+      <Line Name="Line2">
+        <Top>6.97948cm</Top>
+        <Left>1.12146cm</Left>
+        <Height>0cm</Height>
+        <Width>16.54341cm</Width>
+        <ZIndex>24</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Line>
+      <Image Name="Logo">
+        <Source>Embedded</Source>
+        <Value>LogoFactura</Value>
+        <Sizing>FitProportional</Sizing>
+        <Top>0.71201cm</Top>
+        <Left>1.12146cm</Left>
+        <Height>1.5cm</Height>
+        <Width>6.55354cm</Width>
+        <ZIndex>25</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Image>
+      <Textbox Name="Textbox44">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Factura de venta Nº:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox36</rd:DefaultName>
+        <Top>2.56479cm</Top>
+        <Left>9.68389cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.71709cm</Width>
+        <ZIndex>26</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox47">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Fecha Facturación:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox36</rd:DefaultName>
+        <Top>3.34118cm</Top>
+        <Left>9.9214cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.47958cm</Width>
+        <ZIndex>27</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox53">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Fecha Vencimiento:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox36</rd:DefaultName>
+        <Top>4.11757cm</Top>
+        <Left>9.8332cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.56778cm</Width>
+        <ZIndex>28</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox10">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Medellín - Antioquia</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox10</rd:DefaultName>
+        <Top>4.89396cm</Top>
+        <Left>9.8332cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.94871cm</Width>
+        <ZIndex>29</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox2">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>STOCK MANAGERS S.A.S</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>SteelBlue</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox2</rd:DefaultName>
+        <Top>2.56479cm</Top>
+        <Left>1.12146cm</Left>
+        <Height>0.6cm</Height>
+        <Width>4.51083cm</Width>
+        <ZIndex>30</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox6">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>NIT:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox6</rd:DefaultName>
+        <Top>3.34118cm</Top>
+        <Left>2.25917cm</Left>
+        <Height>0.6cm</Height>
+        <Width>0.80667cm</Width>
+        <ZIndex>31</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox7">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Dirección:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox7</rd:DefaultName>
+        <Top>4.11757cm</Top>
+        <Left>1.12146cm</Left>
+        <Height>0.6cm</Height>
+        <Width>1.94438cm</Width>
+        <ZIndex>32</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox9">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Teléfono:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox9</rd:DefaultName>
+        <Top>4.89396cm</Top>
+        <Left>1.33313cm</Left>
+        <Height>0.6cm</Height>
+        <Width>1.73271cm</Width>
+        <ZIndex>33</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox11">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>CR 44A CL 31 - 111</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox11</rd:DefaultName>
+        <Top>4.11757cm</Top>
+        <Left>3.25577cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.21438cm</Width>
+        <ZIndex>34</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox12">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>900.474.160 - 9</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox11</rd:DefaultName>
+        <Top>3.34118cm</Top>
+        <Left>3.25577cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.21437cm</Width>
+        <ZIndex>35</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox13">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>411 84 50</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox11</rd:DefaultName>
+        <Top>4.89396cm</Top>
+        <Left>3.25577cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.21437cm</Width>
+        <ZIndex>36</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox15">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>  de Noviembre 11/2011 Facturación Autorizada de  </Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontSize>8pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value />
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontSize>8pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox15</rd:DefaultName>
+        <Top>6.23837cm</Top>
+        <Left>6.84938cm</Left>
+        <Height>0.6cm</Height>
+        <Width>7.55702cm</Width>
+        <ZIndex>37</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Line Name="Line5">
+        <Top>11.23243cm</Top>
+        <Left>1.08617cm</Left>
+        <Height>0cm</Height>
+        <Width>16.54341cm</Width>
+        <ZIndex>38</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Line>
+      <Textbox Name="Textbox16">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>CONCEPTOS</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox16</rd:DefaultName>
+        <Top>11.61291cm</Top>
+        <Left>1.08617cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>39</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox19">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Impreso por Stock Managers S.A.S Nit: 900.474.160 - 9</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontSize>6pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox19</rd:DefaultName>
+        <Top>25.17452cm</Top>
+        <Left>1.12146cm</Left>
+        <Height>0.6cm</Height>
+        <Width>5.62208cm</Width>
+        <ZIndex>40</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Line Name="Line6">
+        <Top>25.0334cm</Top>
+        <Left>1.12146cm</Left>
+        <Height>0cm</Height>
+        <Width>16.54341cm</Width>
+        <ZIndex>41</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Line>
+      <Textbox Name="Textbox18">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Favor consignar en la cuenta de ahorros del Banco AV Villas en la cuenta número: 506-09608-0 a nombre de STOCK MANAGERS S.A.S.</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value />
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Contacto: Administracion@stockmg.com  gerencia@stockmg.com  www.stockmg.com</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value />
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Esta factura se asimilirá en sus efectos a la letra de cambio, según el artículo 774 y 779 del código de comercio</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontSize>8pt</FontSize>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>.</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value />
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Esta factura causará intereses de mora a la tasa vigente transcurridos los 30 días a partir de la fecha de su expedición. ARTICULO 12 DE LA LEY.</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontSize>8pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox18</rd:DefaultName>
+        <Top>20.50875cm</Top>
+        <Left>1.12146cm</Left>
+        <Height>4.22479cm</Height>
+        <Width>16.54341cm</Width>
+        <ZIndex>42</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Line Name="Line7">
+        <Top>20.18006cm</Top>
+        <Left>1.12146cm</Left>
+        <Height>0cm</Height>
+        <Width>16.54341cm</Width>
+        <ZIndex>43</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Line>
+      <Textbox Name="Textbox76">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Otros Impuesto:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox74</rd:DefaultName>
+        <Top>16.88893cm</Top>
+        <Left>12.39254cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.85108cm</Width>
+        <ZIndex>44</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="txtResolucion">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Resolución.Value, "DatasetDian")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <Top>6.20309cm</Top>
+        <Left>4.3141cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>45</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="txtInical">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!RangoInicial.Value, "DatasetDian")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <Top>6.23837cm</Top>
+        <Left>14.47696cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>46</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="TextRangoFinal">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!RangoFinal.Value, "DatasetDian")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <Top>7.15587cm</Top>
+        <Left>1.63708cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>47</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox8">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Resolución Dian No:   </Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                  <FontSize>8pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox8</rd:DefaultName>
+        <Top>6.20309cm</Top>
+        <Left>1.12146cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.19264cm</Width>
+        <ZIndex>48</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox14">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>a</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>7.15587cm</Top>
+        <Left>1.12146cm</Left>
+        <Height>0.6cm</Height>
+        <Width>0.51562cm</Width>
+        <ZIndex>49</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>10.48171in</Height>
+    <Style>
+      <Border>
+        <Style>Solid</Style>
+      </Border>
+    </Style>
+  </Body>
+  <Width>7.39942in</Width>
+  <Page>
+    <PageHeight>29.7cm</PageHeight>
+    <PageWidth>22cm</PageWidth>
+    <InteractiveHeight>29.7cm</InteractiveHeight>
+    <InteractiveWidth>22cm</InteractiveWidth>
+    <LeftMargin>1cm</LeftMargin>
+    <RightMargin>2cm</RightMargin>
+    <TopMargin>1cm</TopMargin>
+    <BottomMargin>2cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="SmartPrintDataSet">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>1a5d47a8-2926-4be4-802f-32880640d8c3</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSetFactura">
+      <Query>
+        <DataSourceName>SmartPrintDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="NumeroFactura">
+          <DataField>NumeroFactura</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Cedula">
+          <DataField>Cedula</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Nombre">
+          <DataField>Nombre</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Direccion">
+          <DataField>Direccion</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Telefono">
+          <DataField>Telefono</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FechaFactura">
+          <DataField>FechaFactura</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="FechaVencimiento">
+          <DataField>FechaVencimiento</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="estado">
+          <DataField>estado</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Observaciones">
+          <DataField>Observaciones</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Item">
+          <DataField>Item</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Cantidad">
+          <DataField>Cantidad</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ValorUnitario">
+          <DataField>ValorUnitario</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="SubtotalSer">
+          <DataField>SubtotalSer</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="SubTotal">
+          <DataField>SubTotal</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="ValorIva">
+          <DataField>ValorIva</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Impuestos">
+          <DataField>Impuestos</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Descuento">
+          <DataField>Descuento</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Total">
+          <DataField>Total</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="NombreServicio">
+          <DataField>NombreServicio</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>SmartPrintDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\SmartPrint\SmartPrintDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>ReporteFactura</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>ReporteFacturaTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="DatasetDian">
+      <Query>
+        <DataSourceName>SmartPrintDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Codigo">
+          <DataField>Codigo</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="RangoInicial">
+          <DataField>RangoInicial</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="RangoFinal">
+          <DataField>RangoFinal</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Fecha">
+          <DataField>Fecha</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="Usuario">
+          <DataField>Usuario</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Resolución">
+          <DataField>Resolución</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Estado">
+          <DataField>Estado</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>SmartPrintDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\SmartPrintDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>SeleccionDian</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>SeleccionDianTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="Logo">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="LogoFactura">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>7f243b0a-d88f-49b2-8e1f-78f8f555cfad</rd:ReportID>
+</Report>

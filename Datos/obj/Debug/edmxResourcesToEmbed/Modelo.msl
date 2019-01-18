@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SmartPrintModelStoreContainer" CdmEntityContainer="SmartPrintEntities">
+    <EntitySetMapping Name="OtrosServicios">
+      <EntityTypeMapping TypeName="SmartPrintModel.OtrosServicios">
+        <MappingFragment StoreEntitySet="OtrosServicios">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Idproveedor" ColumnName="Idproveedor" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proveedores">
+      <EntityTypeMapping TypeName="SmartPrintModel.Proveedores">
+        <MappingFragment StoreEntitySet="Proveedores">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Nit" ColumnName="Nit" />
+          <ScalarProperty Name="RazonSocial" ColumnName="RazonSocial" />
+          <ScalarProperty Name="Contacto" ColumnName="Contacto" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Ext" ColumnName="Ext" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Habilitar" ColumnName="Habilitar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Remision">
+      <EntityTypeMapping TypeName="SmartPrintModel.Remision">
+        <MappingFragment StoreEntitySet="Remision">
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Iva" ColumnName="Iva" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="NumeroRemision" ColumnName="NumeroRemision" />
+          <ScalarProperty Name="CcNit" ColumnName="CcNit" />
+          <ScalarProperty Name="FechaRemision" ColumnName="FechaRemision" />
+          <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RemisionServicos">
+      <EntityTypeMapping TypeName="SmartPrintModel.RemisionServicos">
+        <MappingFragment StoreEntitySet="RemisionServicos">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="IdRemisionServicios" ColumnName="IdRemisionServicios" />
+          <ScalarProperty Name="NumeroRemision" ColumnName="NumeroRemision" />
+          <ScalarProperty Name="Item" ColumnName="Item" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+          <ScalarProperty Name="ValorTotal" ColumnName="ValorTotal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Servicios">
+      <EntityTypeMapping TypeName="SmartPrintModel.Servicios">
+        <MappingFragment StoreEntitySet="Servicios">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Item" ColumnName="Item" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="SmartPrintModel.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Creador" ColumnName="Creador" />
+          <ScalarProperty Name="CedulaEmpleado" ColumnName="CedulaEmpleado" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Contrasena" ColumnName="Contrasena" />
+          <ScalarProperty Name="Perfil" ColumnName="Perfil" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MostrarComboProveedor">
+      <EntityTypeMapping TypeName="SmartPrintModel.MostrarComboProveedor">
+        <MappingFragment StoreEntitySet="MostrarComboProveedor">
+          <ScalarProperty Name="Nit" ColumnName="Nit" />
+          <ScalarProperty Name="RazonSocial" ColumnName="RazonSocial" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaOtrosServicios">
+      <EntityTypeMapping TypeName="SmartPrintModel.VistaOtrosServicios">
+        <MappingFragment StoreEntitySet="VistaOtrosServicios">
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Idproveedor" ColumnName="Idproveedor" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaServicios">
+      <EntityTypeMapping TypeName="SmartPrintModel.VistaServicios">
+        <MappingFragment StoreEntitySet="VistaServicios">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Item" ColumnName="Item" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="BuscarUsuario" FunctionName="SmartPrintModel.Store.BuscarUsuario" />
+    <FunctionImportMapping FunctionImportName="GestionarOtrosServicio" FunctionName="SmartPrintModel.Store.GestionarOtrosServicio" />
+    <FunctionImportMapping FunctionImportName="GestionarProveedor" FunctionName="SmartPrintModel.Store.GestionarProveedor" />
+    <FunctionImportMapping FunctionImportName="GestionarServicio" FunctionName="SmartPrintModel.Store.GestionarServicio" />
+    <FunctionImportMapping FunctionImportName="ObtenerOtroServicio" FunctionName="SmartPrintModel.Store.ObtenerOtroServicio">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.ObtenerOtroServicio_Result">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ObtenerServicios" FunctionName="SmartPrintModel.Store.ObtenerServicios">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.ObtenerServicios_Result">
+          <ScalarProperty Name="Item" ColumnName="Item" />
+          <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="RegistrarOrden" FunctionName="SmartPrintModel.Store.RegistrarOrden" />
+    <FunctionImportMapping FunctionImportName="RegistrarRemisionServicios" FunctionName="SmartPrintModel.Store.RegistrarRemisionServicios" />
+    <FunctionImportMapping FunctionImportName="GestionarUsuarios" FunctionName="SmartPrintModel.Store.GestionarUsuarios" />
+    <FunctionImportMapping FunctionImportName="BuscarServicioFactura" FunctionName="SmartPrintModel.Store.BuscarServicioFactura">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.BuscarServicioFactura_Result">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Valor_Unitario" ColumnName="Valor Unitario" />
+          <ScalarProperty Name="Valor_Total" ColumnName="Valor Total" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SpBuscar_RemisionServicios" FunctionName="SmartPrintModel.Store.SpBuscar_RemisionServicios">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.SpBuscar_RemisionServicios_Result">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Valor_Unitario" ColumnName="Valor Unitario" />
+          <ScalarProperty Name="Valor_Total" ColumnName="Valor Total" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GestionarCliente" FunctionName="SmartPrintModel.Store.GestionarCliente" />
+    <FunctionImportMapping FunctionImportName="GestionarEmpleado" FunctionName="SmartPrintModel.Store.GestionarEmpleado" />
+    <EntitySetMapping Name="Empleado">
+      <EntityTypeMapping TypeName="SmartPrintModel.Empleado">
+        <MappingFragment StoreEntitySet="Empleado">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="ARP" ColumnName="ARP" />
+          <ScalarProperty Name="Pensiones" ColumnName="Pensiones" />
+          <ScalarProperty Name="CajaCompensaciones" ColumnName="CajaCompensaciones" />
+          <ScalarProperty Name="Eps" ColumnName="Eps" />
+          <ScalarProperty Name="Salario" ColumnName="Salario" />
+          <ScalarProperty Name="Contrato" ColumnName="Contrato" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="FechadeRetiro" ColumnName="FechadeRetiro" />
+          <ScalarProperty Name="Disponibilidad" ColumnName="Disponibilidad" />
+          <ScalarProperty Name="FechadeIngreso" ColumnName="FechadeIngreso" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+          <ScalarProperty Name="FechadeNacimiento" ColumnName="FechadeNacimiento" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="SegundoApellido" ColumnName="SegundoApellido" />
+          <ScalarProperty Name="PrimerApellido" ColumnName="PrimerApellido" />
+          <ScalarProperty Name="SegundoNombre" ColumnName="SegundoNombre" />
+          <ScalarProperty Name="PrimerNombre" ColumnName="PrimerNombre" />
+          <ScalarProperty Name="CedulaEmpleado" ColumnName="CedulaEmpleado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="MostrarCodigo" FunctionName="SmartPrintModel.Store.MostrarCodigo" />
+    <EntitySetMapping Name="Cliente">
+      <EntityTypeMapping TypeName="SmartPrintModel.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="Contacto" ColumnName="Contacto" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Habilitar" ColumnName="Habilitar" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Ext" ColumnName="Ext" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdenServicio">
+      <EntityTypeMapping TypeName="SmartPrintModel.OrdenServicio">
+        <MappingFragment StoreEntitySet="OrdenServicio">
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaInicial" ColumnName="FechaInicial" />
+          <ScalarProperty Name="FechaOrden" ColumnName="FechaOrden" />
+          <ScalarProperty Name="Asignado" ColumnName="Asignado" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="NumeroRemision" ColumnName="NumeroRemision" />
+          <ScalarProperty Name="NumeroOrden" ColumnName="NumeroOrden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Factura">
+      <EntityTypeMapping TypeName="SmartPrintModel.Factura">
+        <MappingFragment StoreEntitySet="Factura">
+          <ScalarProperty Name="NumeroRemision" ColumnName="NumeroRemision" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="ValorTotal" ColumnName="ValorTotal" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Impuestos" ColumnName="Impuestos" />
+          <ScalarProperty Name="ValorIva" ColumnName="ValorIva" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+          <ScalarProperty Name="FechaFactura" ColumnName="FechaFactura" />
+          <ScalarProperty Name="CCNit" ColumnName="CCNit" />
+          <ScalarProperty Name="NumeroOrdSer" ColumnName="NumeroOrdSer" />
+          <ScalarProperty Name="NumeroFactura" ColumnName="NumeroFactura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="MostrarCodigoFactura" FunctionName="SmartPrintModel.Store.MostrarCodigoFactura" />
+    <FunctionImportMapping FunctionImportName="Loguin" FunctionName="SmartPrintModel.Store.Loguin">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.Loguin_Result">
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Contrasena" ColumnName="Contrasena" />
+          <ScalarProperty Name="Perfil" ColumnName="Perfil" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BuscarMora" FunctionName="SmartPrintModel.Store.BuscarMora">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.BuscarMora_Result">
+          <ScalarProperty Name="NumeroFactura" ColumnName="NumeroFactura" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="VistaMora">
+      <EntityTypeMapping TypeName="SmartPrintModel.VistaMora">
+        <MappingFragment StoreEntitySet="VistaMora">
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="NumeroFactura" ColumnName="NumeroFactura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="BuscarFacturaFechaCedula" FunctionName="SmartPrintModel.Store.BuscarFacturaFechaCedula">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.BuscarFacturaFechaCedula_Result">
+          <ScalarProperty Name="Factura" ColumnName="Factura" />
+          <ScalarProperty Name="OS" ColumnName="OS" />
+          <ScalarProperty Name="Cèdula" ColumnName="Cèdula" />
+          <ScalarProperty Name="Creacion" ColumnName="Creacion" />
+          <ScalarProperty Name="Vencimiento" ColumnName="Vencimiento" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Iva" ColumnName="Iva" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Impuestos" ColumnName="Impuestos" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BuscarOrdenFechaCedula" FunctionName="SmartPrintModel.Store.BuscarOrdenFechaCedula">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.BuscarOrdenFechaCedula_Result">
+          <ScalarProperty Name="Orden" ColumnName="Orden" />
+          <ScalarProperty Name="Remisiòn" ColumnName="Remisiòn" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="Asignado" ColumnName="Asignado" />
+          <ScalarProperty Name="Vencimiento" ColumnName="Vencimiento" />
+          <ScalarProperty Name="Creacion" ColumnName="Creacion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BuscarRemisionFechaCedula" FunctionName="SmartPrintModel.Store.BuscarRemisionFechaCedula">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.BuscarRemisionFechaCedula_Result">
+          <ScalarProperty Name="Remisiòn" ColumnName="Remisiòn" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="Creaciòn" ColumnName="Creaciòn" />
+          <ScalarProperty Name="Vencimiento" ColumnName="Vencimiento" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="RegistrarRemision" FunctionName="SmartPrintModel.Store.RegistrarRemision" />
+    <FunctionImportMapping FunctionImportName="BuscarProveedor" FunctionName="SmartPrintModel.Store.BuscarProveedor">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.BuscarProveedor_Result">
+          <ScalarProperty Name="Nit" ColumnName="Nit" />
+          <ScalarProperty Name="Razón_social" ColumnName="Razón social" />
+          <ScalarProperty Name="Contacto" ColumnName="Contacto" />
+          <ScalarProperty Name="Teléfono" ColumnName="Teléfono" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BuscClientes" FunctionName="SmartPrintModel.Store.BuscClientes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.BuscClientes_Result">
+          <ScalarProperty Name="Identificación" ColumnName="Identificación" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Teléfono" ColumnName="Teléfono" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="VistaEmpleados">
+      <EntityTypeMapping TypeName="SmartPrintModel.VistaEmpleados">
+        <MappingFragment StoreEntitySet="VistaEmpleados">
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+          <ScalarProperty Name="CedulaEmpleado" ColumnName="CedulaEmpleado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaUsuarios">
+      <EntityTypeMapping TypeName="SmartPrintModel.VistaUsuarios">
+        <MappingFragment StoreEntitySet="VistaUsuarios">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Creador" ColumnName="Creador" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Perfil" ColumnName="Perfil" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Cédula" ColumnName="Cédula" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="BuscaEmpleados" FunctionName="SmartPrintModel.Store.BuscaEmpleados">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.BuscaEmpleados_Result">
+          <ScalarProperty Name="Cédula" ColumnName="Cédula" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Teléfono" ColumnName="Teléfono" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="InhabilitarFactura" FunctionName="SmartPrintModel.Store.InhabilitarFactura" />
+    <FunctionImportMapping FunctionImportName="RegistrarFactura" FunctionName="SmartPrintModel.Store.RegistrarFactura" />
+    <FunctionImportMapping FunctionImportName="ReporteFactura" FunctionName="SmartPrintModel.Store.ReporteFactura">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.ReporteFactura_Result">
+          <ScalarProperty Name="NumeroFactura" ColumnName="NumeroFactura" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="FechaFactura" ColumnName="FechaFactura" />
+          <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Item" ColumnName="Item" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+          <ScalarProperty Name="SubtotalSer" ColumnName="SubtotalSer" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="ValorIva" ColumnName="ValorIva" />
+          <ScalarProperty Name="Impuestos" ColumnName="Impuestos" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="NombreServicio" ColumnName="NombreServicio" />
+          <ScalarProperty Name="Mora" ColumnName="Mora" />
+          <ScalarProperty Name="NumeroOrden" ColumnName="NumeroOrden" />
+          <ScalarProperty Name="EstadoFac" ColumnName="EstadoFac" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BuscarRemision" FunctionName="SmartPrintModel.Store.BuscarRemision">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.BuscarRemision_Result">
+          <ScalarProperty Name="CcNit" ColumnName="CcNit" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Iva" ColumnName="Iva" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BuscarNomCli" FunctionName="SmartPrintModel.Store.BuscarNomCli">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.BuscarNomCli_Result">
+          <ScalarProperty Name="Identificación" ColumnName="Identificación" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Teléfono" ColumnName="Teléfono" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="MostrarDian" FunctionName="SmartPrintModel.Store.MostrarDian">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SmartPrintModel.MostrarDian_Result">
+          <ScalarProperty Name="RangoInicial" ColumnName="RangoInicial" />
+          <ScalarProperty Name="RangoFinal" ColumnName="RangoFinal" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="Dian">
+      <EntityTypeMapping TypeName="SmartPrintModel.Dian">
+        <MappingFragment StoreEntitySet="Dian">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Resolución" ColumnName="Resolución" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="RangoFinal" ColumnName="RangoFinal" />
+          <ScalarProperty Name="RangoInicial" ColumnName="RangoInicial" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="RangoDian" FunctionName="SmartPrintModel.Store.RangoDian" />
+    <FunctionImportMapping FunctionImportName="SeleccionarRango" FunctionName="SmartPrintModel.Store.SeleccionarRango" />
+  </EntityContainerMapping>
+</Mapping>

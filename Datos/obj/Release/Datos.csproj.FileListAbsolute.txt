@@ -1,0 +1,9 @@
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\bin\Release\Datos.dll.config
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\bin\Release\Datos.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\bin\Release\Datos.pdb
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\bin\Release\EntityFramework.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\bin\Release\EntityFramework.xml
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\obj\Release\Datos.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Datos\obj\Release\Datos.pdb

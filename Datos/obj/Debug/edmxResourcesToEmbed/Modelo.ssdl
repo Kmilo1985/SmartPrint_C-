@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SmartPrintModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="Cedula" />
+    </Key>
+    <Property Name="Cedula" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefono" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="Ext" Type="int" />
+    <Property Name="Celular" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="Fax" Type="varchar" MaxLength="11" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+    <Property Name="Habilitar" Type="nvarchar" MaxLength="2" Nullable="false" />
+    <Property Name="Usuario" Type="varchar" MaxLength="20" />
+    <Property Name="Fecha" Type="date" />
+    <Property Name="Contacto" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Dian">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RangoInicial" Type="float" Nullable="false" />
+    <Property Name="RangoFinal" Type="float" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="Usuario" Type="varchar" MaxLength="20" />
+    <Property Name="Resolución" Type="nvarchar" MaxLength="20" />
+    <Property Name="Estado" Type="int" />
+  </EntityType>
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="CedulaEmpleado" />
+    </Key>
+    <Property Name="CedulaEmpleado" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PrimerNombre" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="SegundoNombre" Type="nvarchar" MaxLength="20" />
+    <Property Name="PrimerApellido" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="SegundoApellido" Type="nvarchar" MaxLength="20" />
+    <Property Name="Telefono" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="Celular" Type="varchar" MaxLength="11" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sexo" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="FechadeNacimiento" Type="date" Nullable="false" />
+    <Property Name="Cargo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechadeIngreso" Type="date" Nullable="false" />
+    <Property Name="Disponibilidad" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="FechadeRetiro" Type="date" />
+    <Property Name="Observaciones" Type="nvarchar" MaxLength="225" />
+    <Property Name="Estado" Type="nvarchar" MaxLength="1" Nullable="false" />
+    <Property Name="Contrato" Type="varchar" MaxLength="50" />
+    <Property Name="Salario" Type="float" />
+    <Property Name="Eps" Type="varchar" MaxLength="50" />
+    <Property Name="CajaCompensaciones" Type="varchar" MaxLength="50" />
+    <Property Name="Pensiones" Type="varchar" MaxLength="50" />
+    <Property Name="ARP" Type="varchar" MaxLength="50" />
+    <Property Name="Usuario" Type="varchar" MaxLength="20" />
+    <Property Name="Fecha" Type="date" />
+  </EntityType>
+  <EntityType Name="Factura">
+    <Key>
+      <PropertyRef Name="NumeroFactura" />
+    </Key>
+    <Property Name="NumeroFactura" Type="int" Nullable="false" />
+    <Property Name="NumeroOrdSer" Type="int" Nullable="false" />
+    <Property Name="CCNit" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="FechaFactura" Type="date" Nullable="false" />
+    <Property Name="FechaVencimiento" Type="date" Nullable="false" />
+    <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+    <Property Name="Subtotal" Type="float" Nullable="false" />
+    <Property Name="ValorIva" Type="float" Nullable="false" />
+    <Property Name="Impuestos" Type="float" Nullable="false" />
+    <Property Name="Descuento" Type="float" Nullable="false" />
+    <Property Name="ValorTotal" Type="float" Nullable="false" />
+    <Property Name="Usuario" Type="varchar" MaxLength="20" />
+    <Property Name="Estado" Type="nvarchar" MaxLength="50" />
+    <Property Name="NumeroRemision" Type="int" />
+  </EntityType>
+  <EntityType Name="OrdenServicio">
+    <Key>
+      <PropertyRef Name="NumeroOrden" />
+    </Key>
+    <Property Name="NumeroOrden" Type="int" Nullable="false" />
+    <Property Name="NumeroRemision" Type="int" Nullable="false" />
+    <Property Name="Cedula" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Asignado" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="FechaOrden" Type="date" Nullable="false" />
+    <Property Name="FechaInicial" Type="date" Nullable="false" />
+    <Property Name="Estado" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+    <Property Name="Usuario" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="OtrosServicios">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" Nullable="false" />
+    <Property Name="Idproveedor" Type="varchar" MaxLength="20" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+    <Property Name="Serial" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ValorUnitario" Type="float" Nullable="false" />
+    <Property Name="Usuario" Type="varchar" MaxLength="20" />
+    <Property Name="Fecha" Type="date" />
+  </EntityType>
+  <EntityType Name="Proveedores">
+    <Key>
+      <PropertyRef Name="Nit" />
+    </Key>
+    <Property Name="Nit" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="RazonSocial" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contacto" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefono" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="Ext" Type="int" />
+    <Property Name="Fax" Type="varchar" MaxLength="11" />
+    <Property Name="Celular" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+    <Property Name="Habilitar" Type="nvarchar" MaxLength="1" Nullable="false" />
+    <Property Name="Usuario" Type="varchar" MaxLength="20" />
+    <Property Name="Fecha" Type="date" />
+  </EntityType>
+  <EntityType Name="Remision">
+    <Key>
+      <PropertyRef Name="NumeroRemision" />
+    </Key>
+    <Property Name="NumeroRemision" Type="int" Nullable="false" />
+    <Property Name="CcNit" Type="varchar" MaxLength="20" />
+    <Property Name="FechaRemision" Type="date" Nullable="false" />
+    <Property Name="FechaVencimiento" Type="date" Nullable="false" />
+    <Property Name="Observaciones" Type="nvarchar" MaxLength="50" />
+    <Property Name="Subtotal" Type="float" />
+    <Property Name="Iva" Type="float" />
+    <Property Name="Total" Type="float" />
+    <Property Name="Usuario" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="RemisionServicos">
+    <Key>
+      <PropertyRef Name="IdRemisionServicios" />
+    </Key>
+    <Property Name="IdRemisionServicios" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NumeroRemision" Type="int" Nullable="false" />
+    <Property Name="Item" Type="int" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+    <Property Name="ValorUnitario" Type="float" Nullable="false" />
+    <Property Name="ValorTotal" Type="float" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Servicios">
+    <Key>
+      <PropertyRef Name="Item" />
+    </Key>
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tipo" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Item" Type="int" Nullable="false" />
+    <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+    <Property Name="ValorUnitario" Type="float" Nullable="false" />
+    <Property Name="Usuario" Type="varchar" MaxLength="20" />
+    <Property Name="Fecha" Type="date" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="CedulaEmpleado" />
+    </Key>
+    <Property Name="CedulaEmpleado" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Usuario" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Contrasena" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Perfil" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Estado" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Creador" Type="varchar" MaxLength="20" />
+    <Property Name="Fecha" Type="date" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SmartPrint.dbo.MostrarComboProveedor' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="MostrarComboProveedor">
+    <Key>
+      <PropertyRef Name="Nit" />
+      <PropertyRef Name="RazonSocial" />
+    </Key>
+    <Property Name="Nit" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="RazonSocial" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SmartPrint.dbo.VistaEmpleados' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="VistaEmpleados">
+    <Key>
+      <PropertyRef Name="CedulaEmpleado" />
+    </Key>
+    <Property Name="CedulaEmpleado" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="NombreCompleto" Type="nvarchar" MaxLength="83" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SmartPrint.dbo.VistaMora' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="VistaMora">
+    <Key>
+      <PropertyRef Name="Fecha" />
+      <PropertyRef Name="Total" />
+    </Key>
+    <Property Name="NumeroFactura" Type="int" />
+    <Property Name="Cedula" Type="varchar" MaxLength="20" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="Total" Type="float" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SmartPrint.dbo.VistaOtrosServicios' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="VistaOtrosServicios">
+    <Key>
+      <PropertyRef Name="Codigo" />
+      <PropertyRef Name="Nombre" />
+      <PropertyRef Name="Serial" />
+      <PropertyRef Name="ValorUnitario" />
+    </Key>
+    <Property Name="Codigo" Type="int" Nullable="false" />
+    <Property Name="Idproveedor" Type="varchar" MaxLength="20" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+    <Property Name="Serial" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ValorUnitario" Type="float" Nullable="false" />
+    <Property Name="Fecha" Type="date" />
+    <Property Name="Usuario" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SmartPrint.dbo.VistaServicios' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="VistaServicios">
+    <Key>
+      <PropertyRef Name="Item" />
+      <PropertyRef Name="Nombre" />
+      <PropertyRef Name="Tipo" />
+      <PropertyRef Name="ValorUnitario" />
+    </Key>
+    <Property Name="Item" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tipo" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+    <Property Name="ValorUnitario" Type="float" Nullable="false" />
+    <Property Name="Usuario" Type="varchar" MaxLength="20" />
+    <Property Name="Fecha" Type="date" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SmartPrint.dbo.VistaUsuarios' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="VistaUsuarios">
+    <Key>
+      <PropertyRef Name="Cédula" />
+      <PropertyRef Name="Usuario" />
+      <PropertyRef Name="Perfil" />
+      <PropertyRef Name="Estado" />
+    </Key>
+    <Property Name="Cédula" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="83" />
+    <Property Name="Usuario" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Perfil" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Estado" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Creador" Type="varchar" MaxLength="20" />
+    <Property Name="Fecha" Type="date" />
+  </EntityType>
+  <Association Name="fk_RemiFac">
+    <End Role="Remision" Type="Self.Remision" Multiplicity="0..1" />
+    <End Role="Factura" Type="Self.Factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Remision">
+        <PropertyRef Name="NumeroRemision" />
+      </Principal>
+      <Dependent Role="Factura">
+        <PropertyRef Name="NumeroRemision" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RemisionServicos_Remision">
+    <End Role="Remision" Type="Self.Remision" Multiplicity="1" />
+    <End Role="RemisionServicos" Type="Self.RemisionServicos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Remision">
+        <PropertyRef Name="NumeroRemision" />
+      </Principal>
+      <Dependent Role="RemisionServicos">
+        <PropertyRef Name="NumeroRemision" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkCedulaOrden">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="OrdenServicio" Type="Self.OrdenServicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Cedula" />
+      </Principal>
+      <Dependent Role="OrdenServicio">
+        <PropertyRef Name="Cedula" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkEmpleadoOrden">
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="1" />
+    <End Role="OrdenServicio" Type="Self.OrdenServicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="CedulaEmpleado" />
+      </Principal>
+      <Dependent Role="OrdenServicio">
+        <PropertyRef Name="Asignado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkNumeroRemision">
+    <End Role="Remision" Type="Self.Remision" Multiplicity="1" />
+    <End Role="OrdenServicio" Type="Self.OrdenServicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Remision">
+        <PropertyRef Name="NumeroRemision" />
+      </Principal>
+      <Dependent Role="OrdenServicio">
+        <PropertyRef Name="NumeroRemision" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKOrden">
+    <End Role="OrdenServicio" Type="Self.OrdenServicio" Multiplicity="1" />
+    <End Role="Factura" Type="Self.Factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrdenServicio">
+        <PropertyRef Name="NumeroOrden" />
+      </Principal>
+      <Dependent Role="Factura">
+        <PropertyRef Name="NumeroOrdSer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkProv">
+    <End Role="Proveedores" Type="Self.Proveedores" Multiplicity="0..1" />
+    <End Role="OtrosServicios" Type="Self.OtrosServicios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedores">
+        <PropertyRef Name="Nit" />
+      </Principal>
+      <Dependent Role="OtrosServicios">
+        <PropertyRef Name="Idproveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkRemisionCliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Remision" Type="Self.Remision" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Cedula" />
+      </Principal>
+      <Dependent Role="Remision">
+        <PropertyRef Name="CcNit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkUsuarioEmpleado">
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="1" />
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="CedulaEmpleado" />
+      </Principal>
+      <Dependent Role="Usuarios">
+        <PropertyRef Name="CedulaEmpleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="pkCCFac">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Factura" Type="Self.Factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Cedula" />
+      </Principal>
+      <Dependent Role="Factura">
+        <PropertyRef Name="CCNit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="BuscaEmpleados" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FechaInicial" Type="date" Mode="In" />
+    <Parameter Name="FechaFinal" Type="date" Mode="In" />
+  </Function>
+  <Function Name="BuscarFacturaFechaCedula" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Cedula" Type="varchar" Mode="In" />
+    <Parameter Name="FechaInicial" Type="date" Mode="In" />
+    <Parameter Name="FechaFinal" Type="date" Mode="In" />
+  </Function>
+  <Function Name="BuscarMora" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="cedula" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BuscarNomCli" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="BuscarOrdenFechaCedula" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Cedula" Type="varchar" Mode="In" />
+    <Parameter Name="FechaInicial" Type="date" Mode="In" />
+    <Parameter Name="FechaFinal" Type="date" Mode="In" />
+  </Function>
+  <Function Name="BuscarProveedor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FechaInicial" Type="date" Mode="In" />
+    <Parameter Name="FechaFinal" Type="date" Mode="In" />
+  </Function>
+  <Function Name="BuscarRemision" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NumeroRemision" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BuscarRemisionFechaCedula" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Cedula" Type="varchar" Mode="In" />
+    <Parameter Name="FechaInicial" Type="date" Mode="In" />
+    <Parameter Name="FechaFinal" Type="date" Mode="In" />
+  </Function>
+  <Function Name="BuscarServicioFactura" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NumeroOrden" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BuscarUsuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CedulaEmpleado" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BuscClientes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FechaInicial" Type="date" Mode="In" />
+    <Parameter Name="FechaFinal" Type="date" Mode="In" />
+  </Function>
+  <Function Name="GestionarCliente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Cedula" Type="varchar" Mode="In" />
+    <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+    <Parameter Name="Telefono" Type="varchar" Mode="In" />
+    <Parameter Name="ext" Type="int" Mode="In" />
+    <Parameter Name="Celular" Type="varchar" Mode="In" />
+    <Parameter Name="fax" Type="varchar" Mode="In" />
+    <Parameter Name="Direccion" Type="nvarchar" Mode="In" />
+    <Parameter Name="Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="observaciones" Type="nvarchar" Mode="In" />
+    <Parameter Name="Habilitar" Type="nvarchar" Mode="In" />
+    <Parameter Name="Usuario" Type="varchar" Mode="In" />
+    <Parameter Name="Contacto" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GestionarEmpleado" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Cedula" Type="varchar" Mode="In" />
+    <Parameter Name="primerNombre" Type="nvarchar" Mode="In" />
+    <Parameter Name="segundoNombre" Type="nvarchar" Mode="In" />
+    <Parameter Name="primerApellido" Type="nvarchar" Mode="In" />
+    <Parameter Name="segundoApellido" Type="nvarchar" Mode="In" />
+    <Parameter Name="telefono" Type="varchar" Mode="In" />
+    <Parameter Name="celular" Type="varchar" Mode="In" />
+    <Parameter Name="direccion" Type="nvarchar" Mode="In" />
+    <Parameter Name="email" Type="nvarchar" Mode="In" />
+    <Parameter Name="sexo" Type="nvarchar" Mode="In" />
+    <Parameter Name="fechadeNacimiento" Type="date" Mode="In" />
+    <Parameter Name="cargo" Type="nvarchar" Mode="In" />
+    <Parameter Name="fechadeIngreso" Type="date" Mode="In" />
+    <Parameter Name="disponibilidad" Type="nvarchar" Mode="In" />
+    <Parameter Name="fechadeRetiro" Type="date" Mode="In" />
+    <Parameter Name="observaciones" Type="nvarchar" Mode="In" />
+    <Parameter Name="Estado" Type="nvarchar" Mode="In" />
+    <Parameter Name="Contrato" Type="varchar" Mode="In" />
+    <Parameter Name="Salario" Type="float" Mode="In" />
+    <Parameter Name="Eps" Type="varchar" Mode="In" />
+    <Parameter Name="compensaciones" Type="varchar" Mode="In" />
+    <Parameter Name="Pensiones" Type="varchar" Mode="In" />
+    <Parameter Name="ARP" Type="varchar" Mode="In" />
+    <Parameter Name="Usuario" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GestionarOtrosServicio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Codigo" Type="int" Mode="In" />
+    <Parameter Name="IdProveedor" Type="varchar" Mode="In" />
+    <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+    <Parameter Name="Observaciones" Type="nvarchar" Mode="In" />
+    <Parameter Name="Serial" Type="nvarchar" Mode="In" />
+    <Parameter Name="ValorUnitario" Type="float" Mode="In" />
+    <Parameter Name="Usuario" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GestionarProveedor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NIT" Type="varchar" Mode="In" />
+    <Parameter Name="RazonSocial" Type="nvarchar" Mode="In" />
+    <Parameter Name="Contacto" Type="nvarchar" Mode="In" />
+    <Parameter Name="Direccion" Type="nvarchar" Mode="In" />
+    <Parameter Name="Telefono" Type="varchar" Mode="In" />
+    <Parameter Name="ext" Type="int" Mode="In" />
+    <Parameter Name="Fax" Type="varchar" Mode="In" />
+    <Parameter Name="Celular" Type="varchar" Mode="In" />
+    <Parameter Name="Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="observaciones" Type="nvarchar" Mode="In" />
+    <Parameter Name="habilitar" Type="nvarchar" Mode="In" />
+    <Parameter Name="Usuario" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GestionarServicio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+    <Parameter Name="Tipo" Type="nvarchar" Mode="In" />
+    <Parameter Name="Item" Type="int" Mode="In" />
+    <Parameter Name="Observaciones" Type="nvarchar" Mode="In" />
+    <Parameter Name="ValorUnitario" Type="float" Mode="In" />
+    <Parameter Name="Usuario" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GestionarUsuarios" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CedulaEmpleado" Type="varchar" Mode="In" />
+    <Parameter Name="Usuario" Type="varchar" Mode="In" />
+    <Parameter Name="Contrasena" Type="varchar" Mode="In" />
+    <Parameter Name="Perfil" Type="nvarchar" Mode="In" />
+    <Parameter Name="Estado" Type="nvarchar" Mode="In" />
+    <Parameter Name="Creador" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="InhabilitarFactura" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NumeroFactura" Type="int" Mode="In" />
+    <Parameter Name="Estado" Type="nvarchar" Mode="In" />
+    <Parameter Name="Mora" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Loguin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Usuario" Type="varchar" Mode="In" />
+    <Parameter Name="Contrasena" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="MostrarCodigo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="MostrarCodigoFactura" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="MostrarDian" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="ObtenerOtroServicio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="ObtenerServicios" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="RangoDian" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RangoInicial" Type="float" Mode="In" />
+    <Parameter Name="RangoFinal" Type="float" Mode="In" />
+    <Parameter Name="Usuario" Type="varchar" Mode="In" />
+    <Parameter Name="Resolucion" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="RegistrarFactura" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NumeroFactura" Type="int" Mode="In" />
+    <Parameter Name="NumeroOrden" Type="int" Mode="In" />
+    <Parameter Name="cedula" Type="varchar" Mode="In" />
+    <Parameter Name="FechaVencimiento" Type="date" Mode="In" />
+    <Parameter Name="Observaciones" Type="nvarchar" Mode="In" />
+    <Parameter Name="Subtotal" Type="float" Mode="In" />
+    <Parameter Name="Total" Type="float" Mode="In" />
+    <Parameter Name="ValorIva" Type="float" Mode="In" />
+    <Parameter Name="Descuento" Type="float" Mode="In" />
+    <Parameter Name="Impuestos" Type="float" Mode="In" />
+    <Parameter Name="Estado" Type="nvarchar" Mode="In" />
+    <Parameter Name="Usuario" Type="varchar" Mode="In" />
+    <Parameter Name="Mora" Type="varchar" Mode="In" />
+    <Parameter Name="EstadoFact" Type="nvarchar" Mode="In" />
+    <Parameter Name="NumeroRemision" Type="int" Mode="In" />
+  </Function>
+  <Function Name="RegistrarOrden" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NumeroOrden" Type="int" Mode="In" />
+    <Parameter Name="NumeroRemision" Type="int" Mode="In" />
+    <Parameter Name="cedula" Type="varchar" Mode="In" />
+    <Parameter Name="Asignado" Type="varchar" Mode="In" />
+    <Parameter Name="FechaOrden" Type="date" Mode="In" />
+    <Parameter Name="Estado" Type="nvarchar" Mode="In" />
+    <Parameter Name="Observaciones" Type="nvarchar" Mode="In" />
+    <Parameter Name="Usuario" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="RegistrarRemision" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NumeroRemision" Type="int" Mode="In" />
+    <Parameter Name="CcNit" Type="varchar" Mode="In" />
+    <Parameter Name="fechaVencimiento" Type="date" Mode="In" />
+    <Parameter Name="Observaciones" Type="nvarchar" Mode="In" />
+    <Parameter Name="Subtotal" Type="float" Mode="In" />
+    <Parameter Name="Iva" Type="float" Mode="In" />
+    <Parameter Name="Total" Type="float" Mode="In" />
+    <Parameter Name="Usuario" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="RegistrarRemisionServicios" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NumeroRemision" Type="int" Mode="In" />
+    <Parameter Name="Item" Type="int" Mode="In" />
+    <Parameter Name="Cantidad" Type="int" Mode="In" />
+    <Parameter Name="ValorUnitario" Type="int" Mode="In" />
+    <Parameter Name="ValorTotal" Type="float" Mode="In" />
+    <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="ReporteFactura" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NumeroFactura" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SeleccionarRango" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SpBuscar_RemisionServicios" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NumeroRemision" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="SmartPrintModelStoreContainer">
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Dian" EntityType="Self.Dian" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Empleado" EntityType="Self.Empleado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Factura" EntityType="Self.Factura" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OrdenServicio" EntityType="Self.OrdenServicio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OtrosServicios" EntityType="Self.OtrosServicios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Proveedores" EntityType="Self.Proveedores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Remision" EntityType="Self.Remision" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RemisionServicos" EntityType="Self.RemisionServicos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Servicios" EntityType="Self.Servicios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MostrarComboProveedor" EntityType="Self.MostrarComboProveedor" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[MostrarComboProveedor].[Nit] AS [Nit], 
+[MostrarComboProveedor].[RazonSocial] AS [RazonSocial]
+FROM [dbo].[MostrarComboProveedor] AS [MostrarComboProveedor]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VistaEmpleados" EntityType="Self.VistaEmpleados" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[VistaEmpleados].[CedulaEmpleado] AS [CedulaEmpleado], 
+[VistaEmpleados].[NombreCompleto] AS [NombreCompleto]
+FROM [dbo].[VistaEmpleados] AS [VistaEmpleados]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VistaMora" EntityType="Self.VistaMora" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[VistaMora].[NumeroFactura] AS [NumeroFactura], 
+[VistaMora].[Cedula] AS [Cedula], 
+[VistaMora].[Fecha] AS [Fecha], 
+[VistaMora].[Total] AS [Total]
+FROM [dbo].[VistaMora] AS [VistaMora]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VistaOtrosServicios" EntityType="Self.VistaOtrosServicios" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[VistaOtrosServicios].[Codigo] AS [Codigo], 
+[VistaOtrosServicios].[Idproveedor] AS [Idproveedor], 
+[VistaOtrosServicios].[Nombre] AS [Nombre], 
+[VistaOtrosServicios].[Observaciones] AS [Observaciones], 
+[VistaOtrosServicios].[Serial] AS [Serial], 
+[VistaOtrosServicios].[ValorUnitario] AS [ValorUnitario], 
+[VistaOtrosServicios].[Fecha] AS [Fecha], 
+[VistaOtrosServicios].[Usuario] AS [Usuario]
+FROM [dbo].[VistaOtrosServicios] AS [VistaOtrosServicios]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VistaServicios" EntityType="Self.VistaServicios" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[VistaServicios].[Item] AS [Item], 
+[VistaServicios].[Nombre] AS [Nombre], 
+[VistaServicios].[Tipo] AS [Tipo], 
+[VistaServicios].[Observaciones] AS [Observaciones], 
+[VistaServicios].[ValorUnitario] AS [ValorUnitario], 
+[VistaServicios].[Usuario] AS [Usuario], 
+[VistaServicios].[Fecha] AS [Fecha]
+FROM [dbo].[VistaServicios] AS [VistaServicios]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VistaUsuarios" EntityType="Self.VistaUsuarios" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[VistaUsuarios].[Cédula] AS [Cédula], 
+[VistaUsuarios].[Nombre] AS [Nombre], 
+[VistaUsuarios].[Usuario] AS [Usuario], 
+[VistaUsuarios].[Perfil] AS [Perfil], 
+[VistaUsuarios].[Estado] AS [Estado], 
+[VistaUsuarios].[Creador] AS [Creador], 
+[VistaUsuarios].[Fecha] AS [Fecha]
+FROM [dbo].[VistaUsuarios] AS [VistaUsuarios]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="fk_RemiFac" Association="Self.fk_RemiFac">
+      <End Role="Remision" EntitySet="Remision" />
+      <End Role="Factura" EntitySet="Factura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RemisionServicos_Remision" Association="Self.FK_RemisionServicos_Remision">
+      <End Role="Remision" EntitySet="Remision" />
+      <End Role="RemisionServicos" EntitySet="RemisionServicos" />
+    </AssociationSet>
+    <AssociationSet Name="fkCedulaOrden" Association="Self.fkCedulaOrden">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="OrdenServicio" EntitySet="OrdenServicio" />
+    </AssociationSet>
+    <AssociationSet Name="fkEmpleadoOrden" Association="Self.fkEmpleadoOrden">
+      <End Role="Empleado" EntitySet="Empleado" />
+      <End Role="OrdenServicio" EntitySet="OrdenServicio" />
+    </AssociationSet>
+    <AssociationSet Name="fkNumeroRemision" Association="Self.fkNumeroRemision">
+      <End Role="Remision" EntitySet="Remision" />
+      <End Role="OrdenServicio" EntitySet="OrdenServicio" />
+    </AssociationSet>
+    <AssociationSet Name="FKOrden" Association="Self.FKOrden">
+      <End Role="OrdenServicio" EntitySet="OrdenServicio" />
+      <End Role="Factura" EntitySet="Factura" />
+    </AssociationSet>
+    <AssociationSet Name="fkProv" Association="Self.fkProv">
+      <End Role="Proveedores" EntitySet="Proveedores" />
+      <End Role="OtrosServicios" EntitySet="OtrosServicios" />
+    </AssociationSet>
+    <AssociationSet Name="FkRemisionCliente" Association="Self.FkRemisionCliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Remision" EntitySet="Remision" />
+    </AssociationSet>
+    <AssociationSet Name="FkUsuarioEmpleado" Association="Self.FkUsuarioEmpleado">
+      <End Role="Empleado" EntitySet="Empleado" />
+      <End Role="Usuarios" EntitySet="Usuarios" />
+    </AssociationSet>
+    <AssociationSet Name="pkCCFac" Association="Self.pkCCFac">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Factura" EntitySet="Factura" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

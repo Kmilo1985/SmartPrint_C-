@@ -1,0 +1,2014 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SmartPrintModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="Cedula" />
+          </Key>
+          <Property Name="Cedula" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Telefono" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="Ext" Type="int" />
+          <Property Name="Celular" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="Fax" Type="varchar" MaxLength="11" />
+          <Property Name="Direccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+          <Property Name="Habilitar" Type="nvarchar" MaxLength="2" Nullable="false" />
+          <Property Name="Usuario" Type="varchar" MaxLength="20" />
+          <Property Name="Fecha" Type="date" />
+          <Property Name="Contacto" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Dian">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RangoInicial" Type="float" Nullable="false" />
+          <Property Name="RangoFinal" Type="float" Nullable="false" />
+          <Property Name="Fecha" Type="date" Nullable="false" />
+          <Property Name="Usuario" Type="varchar" MaxLength="20" />
+          <Property Name="Resolución" Type="nvarchar" MaxLength="20" />
+          <Property Name="Estado" Type="int" />
+        </EntityType>
+        <EntityType Name="Empleado">
+          <Key>
+            <PropertyRef Name="CedulaEmpleado" />
+          </Key>
+          <Property Name="CedulaEmpleado" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="PrimerNombre" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="SegundoNombre" Type="nvarchar" MaxLength="20" />
+          <Property Name="PrimerApellido" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="SegundoApellido" Type="nvarchar" MaxLength="20" />
+          <Property Name="Telefono" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="Celular" Type="varchar" MaxLength="11" />
+          <Property Name="Direccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="Sexo" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="FechadeNacimiento" Type="date" Nullable="false" />
+          <Property Name="Cargo" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="FechadeIngreso" Type="date" Nullable="false" />
+          <Property Name="Disponibilidad" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="FechadeRetiro" Type="date" />
+          <Property Name="Observaciones" Type="nvarchar" MaxLength="225" />
+          <Property Name="Estado" Type="nvarchar" MaxLength="1" Nullable="false" />
+          <Property Name="Contrato" Type="varchar" MaxLength="50" />
+          <Property Name="Salario" Type="float" />
+          <Property Name="Eps" Type="varchar" MaxLength="50" />
+          <Property Name="CajaCompensaciones" Type="varchar" MaxLength="50" />
+          <Property Name="Pensiones" Type="varchar" MaxLength="50" />
+          <Property Name="ARP" Type="varchar" MaxLength="50" />
+          <Property Name="Usuario" Type="varchar" MaxLength="20" />
+          <Property Name="Fecha" Type="date" />
+        </EntityType>
+        <EntityType Name="Factura">
+          <Key>
+            <PropertyRef Name="NumeroFactura" />
+          </Key>
+          <Property Name="NumeroFactura" Type="int" Nullable="false" />
+          <Property Name="NumeroOrdSer" Type="int" Nullable="false" />
+          <Property Name="CCNit" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="FechaFactura" Type="date" Nullable="false" />
+          <Property Name="FechaVencimiento" Type="date" Nullable="false" />
+          <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+          <Property Name="Subtotal" Type="float" Nullable="false" />
+          <Property Name="ValorIva" Type="float" Nullable="false" />
+          <Property Name="Impuestos" Type="float" Nullable="false" />
+          <Property Name="Descuento" Type="float" Nullable="false" />
+          <Property Name="ValorTotal" Type="float" Nullable="false" />
+          <Property Name="Usuario" Type="varchar" MaxLength="20" />
+          <Property Name="Estado" Type="nvarchar" MaxLength="50" />
+          <Property Name="NumeroRemision" Type="int" />
+        </EntityType>
+        <EntityType Name="OrdenServicio">
+          <Key>
+            <PropertyRef Name="NumeroOrden" />
+          </Key>
+          <Property Name="NumeroOrden" Type="int" Nullable="false" />
+          <Property Name="NumeroRemision" Type="int" Nullable="false" />
+          <Property Name="Cedula" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Asignado" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="FechaOrden" Type="date" Nullable="false" />
+          <Property Name="FechaInicial" Type="date" Nullable="false" />
+          <Property Name="Estado" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+          <Property Name="Usuario" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="OtrosServicios">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Codigo" Type="int" Nullable="false" />
+          <Property Name="Idproveedor" Type="varchar" MaxLength="20" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+          <Property Name="Serial" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ValorUnitario" Type="float" Nullable="false" />
+          <Property Name="Usuario" Type="varchar" MaxLength="20" />
+          <Property Name="Fecha" Type="date" />
+        </EntityType>
+        <EntityType Name="Proveedores">
+          <Key>
+            <PropertyRef Name="Nit" />
+          </Key>
+          <Property Name="Nit" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="RazonSocial" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Contacto" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Direccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Telefono" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="Ext" Type="int" />
+          <Property Name="Fax" Type="varchar" MaxLength="11" />
+          <Property Name="Celular" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+          <Property Name="Habilitar" Type="nvarchar" MaxLength="1" Nullable="false" />
+          <Property Name="Usuario" Type="varchar" MaxLength="20" />
+          <Property Name="Fecha" Type="date" />
+        </EntityType>
+        <EntityType Name="Remision">
+          <Key>
+            <PropertyRef Name="NumeroRemision" />
+          </Key>
+          <Property Name="NumeroRemision" Type="int" Nullable="false" />
+          <Property Name="CcNit" Type="varchar" MaxLength="20" />
+          <Property Name="FechaRemision" Type="date" Nullable="false" />
+          <Property Name="FechaVencimiento" Type="date" Nullable="false" />
+          <Property Name="Observaciones" Type="nvarchar" MaxLength="50" />
+          <Property Name="Subtotal" Type="float" />
+          <Property Name="Iva" Type="float" />
+          <Property Name="Total" Type="float" />
+          <Property Name="Usuario" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="RemisionServicos">
+          <Key>
+            <PropertyRef Name="IdRemisionServicios" />
+          </Key>
+          <Property Name="IdRemisionServicios" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NumeroRemision" Type="int" Nullable="false" />
+          <Property Name="Item" Type="int" Nullable="false" />
+          <Property Name="Cantidad" Type="int" Nullable="false" />
+          <Property Name="ValorUnitario" Type="float" Nullable="false" />
+          <Property Name="ValorTotal" Type="float" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Servicios">
+          <Key>
+            <PropertyRef Name="Item" />
+          </Key>
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Tipo" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="Item" Type="int" Nullable="false" />
+          <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+          <Property Name="ValorUnitario" Type="float" Nullable="false" />
+          <Property Name="Usuario" Type="varchar" MaxLength="20" />
+          <Property Name="Fecha" Type="date" />
+        </EntityType>
+        <EntityType Name="Usuarios">
+          <Key>
+            <PropertyRef Name="CedulaEmpleado" />
+          </Key>
+          <Property Name="CedulaEmpleado" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Usuario" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Contrasena" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="Perfil" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="Estado" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="Creador" Type="varchar" MaxLength="20" />
+          <Property Name="Fecha" Type="date" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SmartPrint.dbo.MostrarComboProveedor' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="MostrarComboProveedor">
+          <Key>
+            <PropertyRef Name="Nit" />
+            <PropertyRef Name="RazonSocial" />
+          </Key>
+          <Property Name="Nit" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="RazonSocial" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SmartPrint.dbo.VistaEmpleados' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="VistaEmpleados">
+          <Key>
+            <PropertyRef Name="CedulaEmpleado" />
+          </Key>
+          <Property Name="CedulaEmpleado" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="NombreCompleto" Type="nvarchar" MaxLength="83" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SmartPrint.dbo.VistaMora' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="VistaMora">
+          <Key>
+            <PropertyRef Name="Fecha" />
+            <PropertyRef Name="Total" />
+          </Key>
+          <Property Name="NumeroFactura" Type="int" />
+          <Property Name="Cedula" Type="varchar" MaxLength="20" />
+          <Property Name="Fecha" Type="date" Nullable="false" />
+          <Property Name="Total" Type="float" Nullable="false" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SmartPrint.dbo.VistaOtrosServicios' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="VistaOtrosServicios">
+          <Key>
+            <PropertyRef Name="Codigo" />
+            <PropertyRef Name="Nombre" />
+            <PropertyRef Name="Serial" />
+            <PropertyRef Name="ValorUnitario" />
+          </Key>
+          <Property Name="Codigo" Type="int" Nullable="false" />
+          <Property Name="Idproveedor" Type="varchar" MaxLength="20" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+          <Property Name="Serial" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ValorUnitario" Type="float" Nullable="false" />
+          <Property Name="Fecha" Type="date" />
+          <Property Name="Usuario" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SmartPrint.dbo.VistaServicios' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="VistaServicios">
+          <Key>
+            <PropertyRef Name="Item" />
+            <PropertyRef Name="Nombre" />
+            <PropertyRef Name="Tipo" />
+            <PropertyRef Name="ValorUnitario" />
+          </Key>
+          <Property Name="Item" Type="int" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Tipo" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="Observaciones" Type="nvarchar" MaxLength="255" />
+          <Property Name="ValorUnitario" Type="float" Nullable="false" />
+          <Property Name="Usuario" Type="varchar" MaxLength="20" />
+          <Property Name="Fecha" Type="date" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SmartPrint.dbo.VistaUsuarios' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="VistaUsuarios">
+          <Key>
+            <PropertyRef Name="Cédula" />
+            <PropertyRef Name="Usuario" />
+            <PropertyRef Name="Perfil" />
+            <PropertyRef Name="Estado" />
+          </Key>
+          <Property Name="Cédula" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="83" />
+          <Property Name="Usuario" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Perfil" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="Estado" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="Creador" Type="varchar" MaxLength="20" />
+          <Property Name="Fecha" Type="date" />
+        </EntityType>
+        <Association Name="fk_RemiFac">
+          <End Role="Remision" Type="Self.Remision" Multiplicity="0..1" />
+          <End Role="Factura" Type="Self.Factura" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Remision">
+              <PropertyRef Name="NumeroRemision" />
+            </Principal>
+            <Dependent Role="Factura">
+              <PropertyRef Name="NumeroRemision" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RemisionServicos_Remision">
+          <End Role="Remision" Type="Self.Remision" Multiplicity="1" />
+          <End Role="RemisionServicos" Type="Self.RemisionServicos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Remision">
+              <PropertyRef Name="NumeroRemision" />
+            </Principal>
+            <Dependent Role="RemisionServicos">
+              <PropertyRef Name="NumeroRemision" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fkCedulaOrden">
+          <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+          <End Role="OrdenServicio" Type="Self.OrdenServicio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="Cedula" />
+            </Principal>
+            <Dependent Role="OrdenServicio">
+              <PropertyRef Name="Cedula" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fkEmpleadoOrden">
+          <End Role="Empleado" Type="Self.Empleado" Multiplicity="1" />
+          <End Role="OrdenServicio" Type="Self.OrdenServicio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empleado">
+              <PropertyRef Name="CedulaEmpleado" />
+            </Principal>
+            <Dependent Role="OrdenServicio">
+              <PropertyRef Name="Asignado" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fkNumeroRemision">
+          <End Role="Remision" Type="Self.Remision" Multiplicity="1" />
+          <End Role="OrdenServicio" Type="Self.OrdenServicio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Remision">
+              <PropertyRef Name="NumeroRemision" />
+            </Principal>
+            <Dependent Role="OrdenServicio">
+              <PropertyRef Name="NumeroRemision" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FKOrden">
+          <End Role="OrdenServicio" Type="Self.OrdenServicio" Multiplicity="1" />
+          <End Role="Factura" Type="Self.Factura" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OrdenServicio">
+              <PropertyRef Name="NumeroOrden" />
+            </Principal>
+            <Dependent Role="Factura">
+              <PropertyRef Name="NumeroOrdSer" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fkProv">
+          <End Role="Proveedores" Type="Self.Proveedores" Multiplicity="0..1" />
+          <End Role="OtrosServicios" Type="Self.OtrosServicios" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Proveedores">
+              <PropertyRef Name="Nit" />
+            </Principal>
+            <Dependent Role="OtrosServicios">
+              <PropertyRef Name="Idproveedor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FkRemisionCliente">
+          <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+          <End Role="Remision" Type="Self.Remision" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="Cedula" />
+            </Principal>
+            <Dependent Role="Remision">
+              <PropertyRef Name="CcNit" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FkUsuarioEmpleado">
+          <End Role="Empleado" Type="Self.Empleado" Multiplicity="1" />
+          <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Empleado">
+              <PropertyRef Name="CedulaEmpleado" />
+            </Principal>
+            <Dependent Role="Usuarios">
+              <PropertyRef Name="CedulaEmpleado" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="pkCCFac">
+          <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+          <End Role="Factura" Type="Self.Factura" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="Cedula" />
+            </Principal>
+            <Dependent Role="Factura">
+              <PropertyRef Name="CCNit" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="BuscaEmpleados" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="FechaInicial" Type="date" Mode="In" />
+          <Parameter Name="FechaFinal" Type="date" Mode="In" />
+        </Function>
+        <Function Name="BuscarFacturaFechaCedula" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Cedula" Type="varchar" Mode="In" />
+          <Parameter Name="FechaInicial" Type="date" Mode="In" />
+          <Parameter Name="FechaFinal" Type="date" Mode="In" />
+        </Function>
+        <Function Name="BuscarMora" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="cedula" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="BuscarNomCli" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="BuscarOrdenFechaCedula" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Cedula" Type="varchar" Mode="In" />
+          <Parameter Name="FechaInicial" Type="date" Mode="In" />
+          <Parameter Name="FechaFinal" Type="date" Mode="In" />
+        </Function>
+        <Function Name="BuscarProveedor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="FechaInicial" Type="date" Mode="In" />
+          <Parameter Name="FechaFinal" Type="date" Mode="In" />
+        </Function>
+        <Function Name="BuscarRemision" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NumeroRemision" Type="int" Mode="In" />
+        </Function>
+        <Function Name="BuscarRemisionFechaCedula" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Cedula" Type="varchar" Mode="In" />
+          <Parameter Name="FechaInicial" Type="date" Mode="In" />
+          <Parameter Name="FechaFinal" Type="date" Mode="In" />
+        </Function>
+        <Function Name="BuscarServicioFactura" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NumeroOrden" Type="int" Mode="In" />
+        </Function>
+        <Function Name="BuscarUsuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CedulaEmpleado" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="BuscClientes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="FechaInicial" Type="date" Mode="In" />
+          <Parameter Name="FechaFinal" Type="date" Mode="In" />
+        </Function>
+        <Function Name="GestionarCliente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Cedula" Type="varchar" Mode="In" />
+          <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+          <Parameter Name="Telefono" Type="varchar" Mode="In" />
+          <Parameter Name="ext" Type="int" Mode="In" />
+          <Parameter Name="Celular" Type="varchar" Mode="In" />
+          <Parameter Name="fax" Type="varchar" Mode="In" />
+          <Parameter Name="Direccion" Type="nvarchar" Mode="In" />
+          <Parameter Name="Email" Type="nvarchar" Mode="In" />
+          <Parameter Name="observaciones" Type="nvarchar" Mode="In" />
+          <Parameter Name="Habilitar" Type="nvarchar" Mode="In" />
+          <Parameter Name="Usuario" Type="varchar" Mode="In" />
+          <Parameter Name="Contacto" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="GestionarEmpleado" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Cedula" Type="varchar" Mode="In" />
+          <Parameter Name="primerNombre" Type="nvarchar" Mode="In" />
+          <Parameter Name="segundoNombre" Type="nvarchar" Mode="In" />
+          <Parameter Name="primerApellido" Type="nvarchar" Mode="In" />
+          <Parameter Name="segundoApellido" Type="nvarchar" Mode="In" />
+          <Parameter Name="telefono" Type="varchar" Mode="In" />
+          <Parameter Name="celular" Type="varchar" Mode="In" />
+          <Parameter Name="direccion" Type="nvarchar" Mode="In" />
+          <Parameter Name="email" Type="nvarchar" Mode="In" />
+          <Parameter Name="sexo" Type="nvarchar" Mode="In" />
+          <Parameter Name="fechadeNacimiento" Type="date" Mode="In" />
+          <Parameter Name="cargo" Type="nvarchar" Mode="In" />
+          <Parameter Name="fechadeIngreso" Type="date" Mode="In" />
+          <Parameter Name="disponibilidad" Type="nvarchar" Mode="In" />
+          <Parameter Name="fechadeRetiro" Type="date" Mode="In" />
+          <Parameter Name="observaciones" Type="nvarchar" Mode="In" />
+          <Parameter Name="Estado" Type="nvarchar" Mode="In" />
+          <Parameter Name="Contrato" Type="varchar" Mode="In" />
+          <Parameter Name="Salario" Type="float" Mode="In" />
+          <Parameter Name="Eps" Type="varchar" Mode="In" />
+          <Parameter Name="compensaciones" Type="varchar" Mode="In" />
+          <Parameter Name="Pensiones" Type="varchar" Mode="In" />
+          <Parameter Name="ARP" Type="varchar" Mode="In" />
+          <Parameter Name="Usuario" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="GestionarOtrosServicio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Codigo" Type="int" Mode="In" />
+          <Parameter Name="IdProveedor" Type="varchar" Mode="In" />
+          <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+          <Parameter Name="Observaciones" Type="nvarchar" Mode="In" />
+          <Parameter Name="Serial" Type="nvarchar" Mode="In" />
+          <Parameter Name="ValorUnitario" Type="float" Mode="In" />
+          <Parameter Name="Usuario" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="GestionarProveedor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NIT" Type="varchar" Mode="In" />
+          <Parameter Name="RazonSocial" Type="nvarchar" Mode="In" />
+          <Parameter Name="Contacto" Type="nvarchar" Mode="In" />
+          <Parameter Name="Direccion" Type="nvarchar" Mode="In" />
+          <Parameter Name="Telefono" Type="varchar" Mode="In" />
+          <Parameter Name="ext" Type="int" Mode="In" />
+          <Parameter Name="Fax" Type="varchar" Mode="In" />
+          <Parameter Name="Celular" Type="varchar" Mode="In" />
+          <Parameter Name="Email" Type="nvarchar" Mode="In" />
+          <Parameter Name="observaciones" Type="nvarchar" Mode="In" />
+          <Parameter Name="habilitar" Type="nvarchar" Mode="In" />
+          <Parameter Name="Usuario" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="GestionarServicio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+          <Parameter Name="Tipo" Type="nvarchar" Mode="In" />
+          <Parameter Name="Item" Type="int" Mode="In" />
+          <Parameter Name="Observaciones" Type="nvarchar" Mode="In" />
+          <Parameter Name="ValorUnitario" Type="float" Mode="In" />
+          <Parameter Name="Usuario" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="GestionarUsuarios" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CedulaEmpleado" Type="varchar" Mode="In" />
+          <Parameter Name="Usuario" Type="varchar" Mode="In" />
+          <Parameter Name="Contrasena" Type="varchar" Mode="In" />
+          <Parameter Name="Perfil" Type="nvarchar" Mode="In" />
+          <Parameter Name="Estado" Type="nvarchar" Mode="In" />
+          <Parameter Name="Creador" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="InhabilitarFactura" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NumeroFactura" Type="int" Mode="In" />
+          <Parameter Name="Estado" Type="nvarchar" Mode="In" />
+          <Parameter Name="Mora" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="Loguin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Usuario" Type="varchar" Mode="In" />
+          <Parameter Name="Contrasena" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="MostrarCodigo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="MostrarCodigoFactura" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="MostrarDian" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="ObtenerOtroServicio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="ObtenerServicios" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="RangoDian" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="RangoInicial" Type="float" Mode="In" />
+          <Parameter Name="RangoFinal" Type="float" Mode="In" />
+          <Parameter Name="Usuario" Type="varchar" Mode="In" />
+          <Parameter Name="Resolucion" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="RegistrarFactura" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NumeroFactura" Type="int" Mode="In" />
+          <Parameter Name="NumeroOrden" Type="int" Mode="In" />
+          <Parameter Name="cedula" Type="varchar" Mode="In" />
+          <Parameter Name="FechaVencimiento" Type="date" Mode="In" />
+          <Parameter Name="Observaciones" Type="nvarchar" Mode="In" />
+          <Parameter Name="Subtotal" Type="float" Mode="In" />
+          <Parameter Name="Total" Type="float" Mode="In" />
+          <Parameter Name="ValorIva" Type="float" Mode="In" />
+          <Parameter Name="Descuento" Type="float" Mode="In" />
+          <Parameter Name="Impuestos" Type="float" Mode="In" />
+          <Parameter Name="Estado" Type="nvarchar" Mode="In" />
+          <Parameter Name="Usuario" Type="varchar" Mode="In" />
+          <Parameter Name="Mora" Type="varchar" Mode="In" />
+          <Parameter Name="EstadoFact" Type="nvarchar" Mode="In" />
+          <Parameter Name="NumeroRemision" Type="int" Mode="In" />
+        </Function>
+        <Function Name="RegistrarOrden" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NumeroOrden" Type="int" Mode="In" />
+          <Parameter Name="NumeroRemision" Type="int" Mode="In" />
+          <Parameter Name="cedula" Type="varchar" Mode="In" />
+          <Parameter Name="Asignado" Type="varchar" Mode="In" />
+          <Parameter Name="FechaOrden" Type="date" Mode="In" />
+          <Parameter Name="Estado" Type="nvarchar" Mode="In" />
+          <Parameter Name="Observaciones" Type="nvarchar" Mode="In" />
+          <Parameter Name="Usuario" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="RegistrarRemision" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NumeroRemision" Type="int" Mode="In" />
+          <Parameter Name="CcNit" Type="varchar" Mode="In" />
+          <Parameter Name="fechaVencimiento" Type="date" Mode="In" />
+          <Parameter Name="Observaciones" Type="nvarchar" Mode="In" />
+          <Parameter Name="Subtotal" Type="float" Mode="In" />
+          <Parameter Name="Iva" Type="float" Mode="In" />
+          <Parameter Name="Total" Type="float" Mode="In" />
+          <Parameter Name="Usuario" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="RegistrarRemisionServicios" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NumeroRemision" Type="int" Mode="In" />
+          <Parameter Name="Item" Type="int" Mode="In" />
+          <Parameter Name="Cantidad" Type="int" Mode="In" />
+          <Parameter Name="ValorUnitario" Type="int" Mode="In" />
+          <Parameter Name="ValorTotal" Type="float" Mode="In" />
+          <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="ReporteFactura" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NumeroFactura" Type="int" Mode="In" />
+        </Function>
+        <Function Name="SeleccionarRango" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="SpBuscar_RemisionServicios" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NumeroRemision" Type="int" Mode="In" />
+        </Function>
+        <EntityContainer Name="SmartPrintModelStoreContainer">
+          <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dian" EntityType="Self.Dian" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Empleado" EntityType="Self.Empleado" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Factura" EntityType="Self.Factura" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrdenServicio" EntityType="Self.OrdenServicio" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OtrosServicios" EntityType="Self.OtrosServicios" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Proveedores" EntityType="Self.Proveedores" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Remision" EntityType="Self.Remision" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RemisionServicos" EntityType="Self.RemisionServicos" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Servicios" EntityType="Self.Servicios" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MostrarComboProveedor" EntityType="Self.MostrarComboProveedor" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[MostrarComboProveedor].[Nit] AS [Nit], 
+[MostrarComboProveedor].[RazonSocial] AS [RazonSocial]
+FROM [dbo].[MostrarComboProveedor] AS [MostrarComboProveedor]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="VistaEmpleados" EntityType="Self.VistaEmpleados" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[VistaEmpleados].[CedulaEmpleado] AS [CedulaEmpleado], 
+[VistaEmpleados].[NombreCompleto] AS [NombreCompleto]
+FROM [dbo].[VistaEmpleados] AS [VistaEmpleados]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="VistaMora" EntityType="Self.VistaMora" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[VistaMora].[NumeroFactura] AS [NumeroFactura], 
+[VistaMora].[Cedula] AS [Cedula], 
+[VistaMora].[Fecha] AS [Fecha], 
+[VistaMora].[Total] AS [Total]
+FROM [dbo].[VistaMora] AS [VistaMora]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="VistaOtrosServicios" EntityType="Self.VistaOtrosServicios" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[VistaOtrosServicios].[Codigo] AS [Codigo], 
+[VistaOtrosServicios].[Idproveedor] AS [Idproveedor], 
+[VistaOtrosServicios].[Nombre] AS [Nombre], 
+[VistaOtrosServicios].[Observaciones] AS [Observaciones], 
+[VistaOtrosServicios].[Serial] AS [Serial], 
+[VistaOtrosServicios].[ValorUnitario] AS [ValorUnitario], 
+[VistaOtrosServicios].[Fecha] AS [Fecha], 
+[VistaOtrosServicios].[Usuario] AS [Usuario]
+FROM [dbo].[VistaOtrosServicios] AS [VistaOtrosServicios]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="VistaServicios" EntityType="Self.VistaServicios" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[VistaServicios].[Item] AS [Item], 
+[VistaServicios].[Nombre] AS [Nombre], 
+[VistaServicios].[Tipo] AS [Tipo], 
+[VistaServicios].[Observaciones] AS [Observaciones], 
+[VistaServicios].[ValorUnitario] AS [ValorUnitario], 
+[VistaServicios].[Usuario] AS [Usuario], 
+[VistaServicios].[Fecha] AS [Fecha]
+FROM [dbo].[VistaServicios] AS [VistaServicios]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="VistaUsuarios" EntityType="Self.VistaUsuarios" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[VistaUsuarios].[Cédula] AS [Cédula], 
+[VistaUsuarios].[Nombre] AS [Nombre], 
+[VistaUsuarios].[Usuario] AS [Usuario], 
+[VistaUsuarios].[Perfil] AS [Perfil], 
+[VistaUsuarios].[Estado] AS [Estado], 
+[VistaUsuarios].[Creador] AS [Creador], 
+[VistaUsuarios].[Fecha] AS [Fecha]
+FROM [dbo].[VistaUsuarios] AS [VistaUsuarios]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="fk_RemiFac" Association="Self.fk_RemiFac">
+            <End Role="Remision" EntitySet="Remision" />
+            <End Role="Factura" EntitySet="Factura" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RemisionServicos_Remision" Association="Self.FK_RemisionServicos_Remision">
+            <End Role="Remision" EntitySet="Remision" />
+            <End Role="RemisionServicos" EntitySet="RemisionServicos" />
+          </AssociationSet>
+          <AssociationSet Name="fkCedulaOrden" Association="Self.fkCedulaOrden">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="OrdenServicio" EntitySet="OrdenServicio" />
+          </AssociationSet>
+          <AssociationSet Name="fkEmpleadoOrden" Association="Self.fkEmpleadoOrden">
+            <End Role="Empleado" EntitySet="Empleado" />
+            <End Role="OrdenServicio" EntitySet="OrdenServicio" />
+          </AssociationSet>
+          <AssociationSet Name="fkNumeroRemision" Association="Self.fkNumeroRemision">
+            <End Role="Remision" EntitySet="Remision" />
+            <End Role="OrdenServicio" EntitySet="OrdenServicio" />
+          </AssociationSet>
+          <AssociationSet Name="FKOrden" Association="Self.FKOrden">
+            <End Role="OrdenServicio" EntitySet="OrdenServicio" />
+            <End Role="Factura" EntitySet="Factura" />
+          </AssociationSet>
+          <AssociationSet Name="fkProv" Association="Self.fkProv">
+            <End Role="Proveedores" EntitySet="Proveedores" />
+            <End Role="OtrosServicios" EntitySet="OtrosServicios" />
+          </AssociationSet>
+          <AssociationSet Name="FkRemisionCliente" Association="Self.FkRemisionCliente">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Remision" EntitySet="Remision" />
+          </AssociationSet>
+          <AssociationSet Name="FkUsuarioEmpleado" Association="Self.FkUsuarioEmpleado">
+            <End Role="Empleado" EntitySet="Empleado" />
+            <End Role="Usuarios" EntitySet="Usuarios" />
+          </AssociationSet>
+          <AssociationSet Name="pkCCFac" Association="Self.pkCCFac">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Factura" EntitySet="Factura" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SmartPrintModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="OtrosServicios">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Codigo" Type="Int32" Nullable="false" />
+          <Property Name="Idproveedor" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Observaciones" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Serial" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ValorUnitario" Type="Double" Nullable="false" />
+          <NavigationProperty Name="Proveedores" Relationship="Self.FkProveeOtros" FromRole="OtrosServicios" ToRole="Proveedores" />
+          <Property Name="Usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Fecha" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="Proveedores">
+          <Key>
+            <PropertyRef Name="Nit" />
+          </Key>
+          <Property Name="Nit" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="RazonSocial" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Contacto" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Telefono" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Ext" Type="Int32" />
+          <Property Name="Fax" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="Celular" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Observaciones" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Habilitar" Type="String" MaxLength="1" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="OtrosServicios" Relationship="Self.FkProveeOtros" FromRole="Proveedores" ToRole="OtrosServicios" />
+          <Property Name="Usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Fecha" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="Remision">
+          <Key>
+            <PropertyRef Name="NumeroRemision" />
+          </Key>
+          <Property Name="NumeroRemision" Type="Int32" Nullable="false" />
+          <Property Name="CcNit" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="FechaRemision" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="FechaVencimiento" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Observaciones" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="RemisionServicos" Relationship="Self.FK_RemisionServicos_Remision" FromRole="Remision" ToRole="RemisionServicos" />
+          <Property Name="Total" Type="Double" />
+          <Property Name="Subtotal" Type="Double" />
+          <Property Name="Iva" Type="Double" />
+          <NavigationProperty Name="Cliente" Relationship="SmartPrintModel.FkRemisionCliente" FromRole="Remision" ToRole="Cliente" />
+          <NavigationProperty Name="OrdenServicio" Relationship="SmartPrintModel.fkNumeroRemision" FromRole="Remision" ToRole="OrdenServicio" />
+          <Property Name="Usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Factura" Relationship="SmartPrintModel.fk_RemiFac" FromRole="Remision" ToRole="Factura" />
+        </EntityType>
+        <EntityType Name="RemisionServicos">
+          <Key>
+            <PropertyRef Name="IdRemisionServicios" />
+          </Key>
+          <Property Name="IdRemisionServicios" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NumeroRemision" Type="Int32" Nullable="false" />
+          <Property Name="Item" Type="Int32" Nullable="false" />
+          <Property Name="Cantidad" Type="Int32" Nullable="false" />
+          <Property Name="ValorUnitario" Type="Double" Nullable="false" />
+          <Property Name="ValorTotal" Type="Double" Nullable="false" />
+          <NavigationProperty Name="Remision" Relationship="Self.FK_RemisionServicos_Remision" FromRole="RemisionServicos" ToRole="Remision" />
+          <NavigationProperty Name="Servicios" Relationship="Self.FkItemRemiServi" FromRole="RemisionServicos" ToRole="Servicios" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Servicios">
+          <Key>
+            <PropertyRef Name="Item" />
+          </Key>
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Tipo" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Item" Type="Int32" Nullable="false" />
+          <Property Name="Observaciones" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ValorUnitario" Type="Double" Nullable="false" />
+          <NavigationProperty Name="RemisionServicos" Relationship="Self.FkItemRemiServi" FromRole="Servicios" ToRole="RemisionServicos" />
+          <Property Name="Usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Fecha" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="Usuarios">
+          <Key>
+            <PropertyRef Name="CedulaEmpleado" />
+          </Key>
+          <Property Name="CedulaEmpleado" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Contrasena" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Perfil" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Estado" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Empleado" Relationship="SmartPrintModel.FkUsuarioEmpleado" FromRole="Usuarios" ToRole="Empleado" />
+          <Property Name="Creador" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Fecha" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="MostrarComboProveedor">
+          <Key>
+            <PropertyRef Name="Nit" />
+            <PropertyRef Name="RazonSocial" />
+          </Key>
+          <Property Name="Nit" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="RazonSocial" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VistaOtrosServicios">
+          <Key>
+            <PropertyRef Name="Codigo" />
+            <PropertyRef Name="Nombre" />
+            <PropertyRef Name="Serial" />
+            <PropertyRef Name="ValorUnitario" />
+          </Key>
+          <Property Name="Codigo" Type="Int32" Nullable="false" />
+          <Property Name="Idproveedor" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Observaciones" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Serial" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ValorUnitario" Type="Double" Nullable="false" />
+          <Property Name="Fecha" Type="DateTime" Precision="0" />
+          <Property Name="Usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="VistaServicios">
+          <Key>
+            <PropertyRef Name="Nombre" />
+            <PropertyRef Name="Tipo" />
+            <PropertyRef Name="Item" />
+            <PropertyRef Name="ValorUnitario" />
+          </Key>
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Tipo" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Item" Type="Int32" Nullable="false" />
+          <Property Name="Observaciones" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ValorUnitario" Type="Double" Nullable="false" />
+          <Property Name="Usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Fecha" Type="DateTime" Precision="0" />
+        </EntityType>
+        <Association Name="FkProveeOtros">
+          <End Role="Proveedores" Type="Self.Proveedores" Multiplicity="0..1" />
+          <End Role="OtrosServicios" Type="Self.OtrosServicios" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Proveedores">
+              <PropertyRef Name="Nit" />
+            </Principal>
+            <Dependent Role="OtrosServicios">
+              <PropertyRef Name="Idproveedor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RemisionServicos_Remision">
+          <End Role="Remision" Type="Self.Remision" Multiplicity="1" />
+          <End Role="RemisionServicos" Type="Self.RemisionServicos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Remision">
+              <PropertyRef Name="NumeroRemision" />
+            </Principal>
+            <Dependent Role="RemisionServicos">
+              <PropertyRef Name="NumeroRemision" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FkItemRemiServi">
+          <End Role="Servicios" Type="Self.Servicios" Multiplicity="1" />
+          <End Role="RemisionServicos" Type="Self.RemisionServicos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Servicios">
+              <PropertyRef Name="Item" />
+            </Principal>
+            <Dependent Role="RemisionServicos">
+              <PropertyRef Name="Item" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SmartPrintEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="OtrosServicios" EntityType="Self.OtrosServicios" />
+          <EntitySet Name="Proveedores" EntityType="Self.Proveedores" />
+          <EntitySet Name="Remision" EntityType="Self.Remision" />
+          <EntitySet Name="RemisionServicos" EntityType="Self.RemisionServicos" />
+          <EntitySet Name="Servicios" EntityType="Self.Servicios" />
+          <EntitySet Name="Usuarios" EntityType="Self.Usuarios" />
+          <EntitySet Name="MostrarComboProveedor" EntityType="Self.MostrarComboProveedor" />
+          <EntitySet Name="VistaOtrosServicios" EntityType="Self.VistaOtrosServicios" />
+          <EntitySet Name="VistaServicios" EntityType="Self.VistaServicios" />
+          <AssociationSet Name="FkProveeOtros" Association="Self.FkProveeOtros">
+            <End Role="Proveedores" EntitySet="Proveedores" />
+            <End Role="OtrosServicios" EntitySet="OtrosServicios" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RemisionServicos_Remision" Association="Self.FK_RemisionServicos_Remision">
+            <End Role="Remision" EntitySet="Remision" />
+            <End Role="RemisionServicos" EntitySet="RemisionServicos" />
+          </AssociationSet>
+          <AssociationSet Name="FkItemRemiServi" Association="Self.FkItemRemiServi">
+            <End Role="Servicios" EntitySet="Servicios" />
+            <End Role="RemisionServicos" EntitySet="RemisionServicos" />
+          </AssociationSet>
+          <FunctionImport Name="BuscarUsuario" ReturnType="Collection(String)">
+          <Parameter Name="CedulaEmpleado" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="GestionarOtrosServicio" ReturnType="Collection(String)">
+            <Parameter Name="Codigo" Mode="In" Type="Int32" />
+            <Parameter Name="IdProveedor" Mode="In" Type="String" />
+            <Parameter Name="Nombre" Mode="In" Type="String" />
+            <Parameter Name="Observaciones" Mode="In" Type="String" />
+            <Parameter Name="Serial" Mode="In" Type="String" />
+            <Parameter Name="ValorUnitario" Mode="In" Type="Double" />
+            <Parameter Name="Usuario" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="GestionarProveedor" ReturnType="Collection(String)">
+            <Parameter Name="NIT" Mode="In" Type="String" />
+            <Parameter Name="RazonSocial" Mode="In" Type="String" />
+            <Parameter Name="Contacto" Mode="In" Type="String" />
+            <Parameter Name="Direccion" Mode="In" Type="String" />
+            <Parameter Name="Telefono" Mode="In" Type="String" />
+            <Parameter Name="ext" Mode="In" Type="Int32" />
+            <Parameter Name="Fax" Mode="In" Type="String" />
+            <Parameter Name="Celular" Mode="In" Type="String" />
+            <Parameter Name="Email" Mode="In" Type="String" />
+            <Parameter Name="observaciones" Mode="In" Type="String" />
+            <Parameter Name="habilitar" Mode="In" Type="String" />
+            <Parameter Name="Usuario" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="GestionarServicio" ReturnType="Collection(String)">
+            <Parameter Name="Nombre" Mode="In" Type="String" />
+            <Parameter Name="Tipo" Mode="In" Type="String" />
+            <Parameter Name="Item" Mode="In" Type="Int32" />
+            <Parameter Name="Observaciones" Mode="In" Type="String" />
+            <Parameter Name="ValorUnitario" Mode="In" Type="Double" />
+            <Parameter Name="Usuario" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="ModificarUsuarios" ReturnType="Collection(String)">
+            <Parameter Name="CedulaEmpleado" Mode="In" Type="String" />
+            <Parameter Name="Usuario" Mode="In" Type="String" />
+            <Parameter Name="Contrasena" Mode="In" Type="String" />
+            <Parameter Name="Perfil" Mode="In" Type="String" />
+            <Parameter Name="Estado" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="ObtenerOtroServicio" ReturnType="Collection(SmartPrintModel.ObtenerOtroServicio_Result)" />
+          <FunctionImport Name="ObtenerServicios" ReturnType="Collection(SmartPrintModel.ObtenerServicios_Result)" />
+          <FunctionImport Name="RegistrarOrden" ReturnType="Collection(String)">
+            <Parameter Name="NumeroOrden" Mode="In" Type="Int32" />
+            <Parameter Name="NumeroRemision" Mode="In" Type="Int32" />
+            <Parameter Name="cedula" Mode="In" Type="String" />
+            <Parameter Name="Asignado" Mode="In" Type="String" />
+            <Parameter Name="FechaOrden" Mode="In" Type="DateTime" />
+            <Parameter Name="Estado" Mode="In" Type="String" />
+            <Parameter Name="Observaciones" Mode="In" Type="String" />
+            <Parameter Name="Usuario" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="RegistrarRemisionServicios">
+            <Parameter Name="NumeroRemision" Mode="In" Type="Int32" />
+            <Parameter Name="Item" Mode="In" Type="Int32" />
+            <Parameter Name="Cantidad" Mode="In" Type="Int32" />
+            <Parameter Name="ValorUnitario" Mode="In" Type="Int32" />
+            <Parameter Name="ValorTotal" Mode="In" Type="Double" />
+            <Parameter Name="Nombre" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="RegistrarUsuario" ReturnType="Collection(String)">
+            <Parameter Name="CedulaEmpleado" Mode="In" Type="String" />
+            <Parameter Name="Usuario" Mode="In" Type="String" />
+            <Parameter Name="Contrasena" Mode="In" Type="String" />
+            <Parameter Name="Perfil" Mode="In" Type="String" />
+            <Parameter Name="Estado" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="BuscarServicio" ReturnType="Collection(SmartPrintModel.BuscarServicio_Result1)">
+          <Parameter Name="Item" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="GestionarUsuarios" ReturnType="Collection(String)">
+            <Parameter Name="CedulaEmpleado" Mode="In" Type="String" />
+            <Parameter Name="Usuario" Mode="In" Type="String" />
+            <Parameter Name="Contrasena" Mode="In" Type="String" />
+            <Parameter Name="Perfil" Mode="In" Type="String" />
+            <Parameter Name="Estado" Mode="In" Type="String" />
+            <Parameter Name="Creador" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="BuscarServicioFactura" ReturnType="Collection(SmartPrintModel.BuscarServicioFactura_Result)">
+          <Parameter Name="NumeroOrden" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="SpBuscar_RemisionServicios" ReturnType="Collection(SmartPrintModel.SpBuscar_RemisionServicios_Result)">
+          <Parameter Name="NumeroRemision" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="GestionarCliente" ReturnType="Collection(String)">
+            <Parameter Name="Cedula" Mode="In" Type="String" />
+            <Parameter Name="Nombre" Mode="In" Type="String" />
+            <Parameter Name="Telefono" Mode="In" Type="String" />
+            <Parameter Name="ext" Mode="In" Type="Int32" />
+            <Parameter Name="Celular" Mode="In" Type="String" />
+            <Parameter Name="fax" Mode="In" Type="String" />
+            <Parameter Name="Direccion" Mode="In" Type="String" />
+            <Parameter Name="Email" Mode="In" Type="String" />
+            <Parameter Name="observaciones" Mode="In" Type="String" />
+            <Parameter Name="Habilitar" Mode="In" Type="String" />
+            <Parameter Name="Usuario" Mode="In" Type="String" />
+            <Parameter Name="Contacto" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="GestionarEmpleado" ReturnType="Collection(String)">
+            <Parameter Name="Cedula" Mode="In" Type="String" />
+            <Parameter Name="primerNombre" Mode="In" Type="String" />
+            <Parameter Name="segundoNombre" Mode="In" Type="String" />
+            <Parameter Name="primerApellido" Mode="In" Type="String" />
+            <Parameter Name="segundoApellido" Mode="In" Type="String" />
+            <Parameter Name="telefono" Mode="In" Type="String" />
+            <Parameter Name="celular" Mode="In" Type="String" />
+            <Parameter Name="direccion" Mode="In" Type="String" />
+            <Parameter Name="email" Mode="In" Type="String" />
+            <Parameter Name="sexo" Mode="In" Type="String" />
+            <Parameter Name="fechadeNacimiento" Mode="In" Type="DateTime" />
+            <Parameter Name="cargo" Mode="In" Type="String" />
+            <Parameter Name="fechadeIngreso" Mode="In" Type="DateTime" />
+            <Parameter Name="disponibilidad" Mode="In" Type="String" />
+            <Parameter Name="fechadeRetiro" Mode="In" Type="DateTime" />
+            <Parameter Name="observaciones" Mode="In" Type="String" />
+            <Parameter Name="Estado" Mode="In" Type="String" />
+            <Parameter Name="Contrato" Mode="In" Type="String" />
+            <Parameter Name="Salario" Mode="In" Type="Double" />
+            <Parameter Name="Eps" Mode="In" Type="String" />
+            <Parameter Name="compensaciones" Mode="In" Type="String" />
+            <Parameter Name="Pensiones" Mode="In" Type="String" />
+            <Parameter Name="ARP" Mode="In" Type="String" />
+            <Parameter Name="Usuario" Mode="In" Type="String" />
+          </FunctionImport>
+          <EntitySet Name="Empleado" EntityType="SmartPrintModel.Empleado" />
+          <AssociationSet Name="FkUsuarioEmpleado" Association="SmartPrintModel.FkUsuarioEmpleado">
+            <End Role="Empleado" EntitySet="Empleado" />
+            <End Role="Usuarios" EntitySet="Usuarios" />
+          </AssociationSet>
+          <FunctionImport Name="MostrarCodigo" ReturnType="Collection(Int32)" />
+          <EntitySet Name="Cliente" EntityType="SmartPrintModel.Cliente" />
+          <EntitySet Name="OrdenServicio" EntityType="SmartPrintModel.OrdenServicio" />
+          <AssociationSet Name="fkCedulaOrden" Association="SmartPrintModel.fkCedulaOrden">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="OrdenServicio" EntitySet="OrdenServicio" />
+          </AssociationSet>
+          <AssociationSet Name="FkRemisionCliente" Association="SmartPrintModel.FkRemisionCliente">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Remision" EntitySet="Remision" />
+          </AssociationSet>
+          <AssociationSet Name="fkEmpleadoOrden" Association="SmartPrintModel.fkEmpleadoOrden">
+            <End Role="Empleado" EntitySet="Empleado" />
+            <End Role="OrdenServicio" EntitySet="OrdenServicio" />
+          </AssociationSet>
+          <AssociationSet Name="fkNumeroRemision" Association="SmartPrintModel.fkNumeroRemision">
+            <End Role="Remision" EntitySet="Remision" />
+            <End Role="OrdenServicio" EntitySet="OrdenServicio" />
+          </AssociationSet>
+          <EntitySet Name="Factura" EntityType="SmartPrintModel.Factura" />
+          <AssociationSet Name="pkCCFac" Association="SmartPrintModel.pkCCFac">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Factura" EntitySet="Factura" />
+          </AssociationSet>
+          <AssociationSet Name="FKOrden" Association="SmartPrintModel.FKOrden">
+            <End Role="OrdenServicio" EntitySet="OrdenServicio" />
+            <End Role="Factura" EntitySet="Factura" />
+          </AssociationSet>
+          <FunctionImport Name="MostrarCodigoFactura" ReturnType="Collection(Int32)" />
+          <FunctionImport Name="Loguin" ReturnType="Collection(SmartPrintModel.Loguin_Result)">
+            <Parameter Name="Usuario" Mode="In" Type="String" />
+            <Parameter Name="Contrasena" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="BuscarMora" ReturnType="Collection(SmartPrintModel.BuscarMora_Result)">
+          <Parameter Name="cedula" Mode="In" Type="String" />
+          </FunctionImport>
+          <EntitySet Name="VistaMora" EntityType="SmartPrintModel.VistaMora" />
+          <FunctionImport Name="BuscarFacturaFechaCedula" ReturnType="Collection(SmartPrintModel.BuscarFacturaFechaCedula_Result)">
+            <Parameter Name="Cedula" Mode="In" Type="String" />
+            <Parameter Name="FechaInicial" Mode="In" Type="DateTime" />
+            <Parameter Name="FechaFinal" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="BuscarOrdenFechaCedula" ReturnType="Collection(SmartPrintModel.BuscarOrdenFechaCedula_Result)">
+            <Parameter Name="Cedula" Mode="In" Type="String" />
+            <Parameter Name="FechaInicial" Mode="In" Type="DateTime" />
+            <Parameter Name="FechaFinal" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="BuscarRemisionFechaCedula" ReturnType="Collection(SmartPrintModel.BuscarRemisionFechaCedula_Result)">
+            <Parameter Name="Cedula" Mode="In" Type="String" />
+            <Parameter Name="FechaInicial" Mode="In" Type="DateTime" />
+            <Parameter Name="FechaFinal" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="RegistrarRemision" ReturnType="Collection(String)">
+            <Parameter Name="NumeroRemision" Mode="In" Type="Int32" />
+            <Parameter Name="CcNit" Mode="In" Type="String" />
+            <Parameter Name="fechaVencimiento" Mode="In" Type="DateTime" />
+            <Parameter Name="Observaciones" Mode="In" Type="String" />
+            <Parameter Name="Subtotal" Mode="In" Type="Double" />
+            <Parameter Name="Iva" Mode="In" Type="Double" />
+            <Parameter Name="Total" Mode="In" Type="Double" />
+            <Parameter Name="Usuario" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="BuscarProveedor" ReturnType="Collection(SmartPrintModel.BuscarProveedor_Result)">
+            <Parameter Name="FechaInicial" Mode="In" Type="DateTime" />
+            <Parameter Name="FechaFinal" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="BuscClientes" ReturnType="Collection(SmartPrintModel.BuscClientes_Result)">
+            <Parameter Name="FechaInicial" Mode="In" Type="DateTime" />
+            <Parameter Name="FechaFinal" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <EntitySet Name="VistaEmpleados" EntityType="SmartPrintModel.VistaEmpleados" />
+          <EntitySet Name="VistaUsuarios" EntityType="SmartPrintModel.VistaUsuarios" />
+          <FunctionImport Name="BuscaEmpleados" ReturnType="Collection(SmartPrintModel.BuscaEmpleados_Result)">
+            <Parameter Name="FechaInicial" Mode="In" Type="DateTime" />
+            <Parameter Name="FechaFinal" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="InhabilitarFactura" ReturnType="Collection(String)">
+            <Parameter Name="NumeroFactura" Mode="In" Type="Int32" />
+            <Parameter Name="Estado" Mode="In" Type="String" />
+            <Parameter Name="Mora" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="RegistrarFactura" ReturnType="Collection(String)">
+            <Parameter Name="NumeroFactura" Mode="In" Type="Int32" />
+            <Parameter Name="NumeroOrden" Mode="In" Type="Int32" />
+            <Parameter Name="cedula" Mode="In" Type="String" />
+            <Parameter Name="FechaVencimiento" Mode="In" Type="DateTime" />
+            <Parameter Name="Observaciones" Mode="In" Type="String" />
+            <Parameter Name="Subtotal" Mode="In" Type="Double" />
+            <Parameter Name="Total" Mode="In" Type="Double" />
+            <Parameter Name="ValorIva" Mode="In" Type="Double" />
+            <Parameter Name="Descuento" Mode="In" Type="Double" />
+            <Parameter Name="Impuestos" Mode="In" Type="Double" />
+            <Parameter Name="Estado" Mode="In" Type="String" />
+            <Parameter Name="Usuario" Mode="In" Type="String" />
+            <Parameter Name="Mora" Mode="In" Type="String" />
+            <Parameter Name="EstadoFact" Mode="In" Type="String" />
+            <Parameter Name="NumeroRemision" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="ReporteFactura" ReturnType="Collection(SmartPrintModel.ReporteFactura_Result)">
+          <Parameter Name="NumeroFactura" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <AssociationSet Name="fk_RemiFac" Association="SmartPrintModel.fk_RemiFac">
+            <End Role="Remision" EntitySet="Remision" />
+            <End Role="Factura" EntitySet="Factura" />
+          </AssociationSet>
+          <FunctionImport Name="BuscarRemision" ReturnType="Collection(SmartPrintModel.BuscarRemision_Result)">
+          <Parameter Name="NumeroRemision" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="BuscarNomCli" ReturnType="Collection(SmartPrintModel.BuscarNomCli_Result)">
+          <Parameter Name="Nombre" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="MostrarDian" ReturnType="Collection(SmartPrintModel.MostrarDian_Result)" />
+          <EntitySet Name="Dian" EntityType="SmartPrintModel.Dian" />
+          <FunctionImport Name="RangoDian" ReturnType="Collection(String)">
+            <Parameter Name="RangoInicial" Mode="In" Type="Double" />
+            <Parameter Name="RangoFinal" Mode="In" Type="Double" />
+            <Parameter Name="Usuario" Mode="In" Type="String" />
+            <Parameter Name="Resolucion" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SeleccionarRango" ReturnType="Collection(Double)" />
+        </EntityContainer>
+        <ComplexType Name="BuscarServicio_Result">
+          <Property Type="String" Name="Nombre" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="Tipo" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="Observaciones" Nullable="true" MaxLength="50" />
+          <Property Type="Double" Name="ValorUnitario" Nullable="false" />
+        </ComplexType>
+        <ComplexType Name="ObtenerOtroServicio_Result">
+          <Property Type="Int32" Name="Codigo" Nullable="false" />
+          <Property Type="Double" Name="ValorUnitario" Nullable="false" />
+          <Property Type="String" Name="Cantidad" Nullable="false" MaxLength="1" />
+        </ComplexType>
+        <ComplexType Name="ObtenerServicios_Result">
+          <Property Type="Int32" Name="Item" Nullable="false" />
+          <Property Type="Double" Name="ValorUnitario" Nullable="false" />
+          <Property Type="String" Name="cantidad" Nullable="false" MaxLength="1" />
+        </ComplexType>
+        <ComplexType Name="BuscarServicio_Result1">
+          <Property Type="String" Name="Nombre" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="Tipo" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="Observaciones" Nullable="true" MaxLength="50" />
+          <Property Type="Double" Name="ValorUnitario" Nullable="false" />
+          <Property Type="String" Name="Tabla" Nullable="true" MaxLength="20" />
+        </ComplexType>
+        <ComplexType Name="BuscarServicioFactura_Result">
+          <Property Type="Int32" Name="Codigo" Nullable="false" />
+          <Property Type="String" Name="Nombre" Nullable="true" MaxLength="20" />
+          <Property Type="Int32" Name="Cantidad" Nullable="false" />
+          <Property Type="Double" Name="Valor_Unitario" Nullable="false" />
+          <Property Type="Double" Name="Valor_Total" Nullable="false" />
+        </ComplexType>
+        <ComplexType Name="SpBuscar_RemisionServicios_Result">
+          <Property Type="Int32" Name="Codigo" Nullable="false" />
+          <Property Type="String" Name="Nombre" Nullable="true" MaxLength="20" />
+          <Property Type="Int32" Name="Cantidad" Nullable="false" />
+          <Property Type="Double" Name="Valor_Unitario" Nullable="false" />
+          <Property Type="Double" Name="Valor_Total" Nullable="false" />
+        </ComplexType>
+        <EntityType Name="Empleado">
+          <Key>
+            <PropertyRef Name="CedulaEmpleado" />
+          </Key>
+          <Property Name="CedulaEmpleado" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="PrimerNombre" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="SegundoNombre" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="PrimerApellido" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="SegundoApellido" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Telefono" Type="String" Nullable="false" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="Celular" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="Direccion" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Sexo" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="FechadeNacimiento" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Cargo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="FechadeIngreso" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Disponibilidad" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="FechadeRetiro" Type="DateTime" Precision="0" />
+          <Property Name="Observaciones" Type="String" MaxLength="225" FixedLength="false" Unicode="true" />
+          <Property Name="Estado" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="Contrato" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Salario" Type="Double" />
+          <Property Name="Eps" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CajaCompensaciones" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Pensiones" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ARP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Usuarios" Relationship="SmartPrintModel.FkUsuarioEmpleado" FromRole="Empleado" ToRole="Usuarios" />
+          <NavigationProperty Name="OrdenServicio" Relationship="SmartPrintModel.fkEmpleadoOrden" FromRole="Empleado" ToRole="OrdenServicio" />
+          <Property Name="Usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Fecha" Type="DateTime" Precision="0" />
+        </EntityType>
+        <Association Name="FkUsuarioEmpleado">
+          <End Type="SmartPrintModel.Empleado" Role="Empleado" Multiplicity="1" />
+          <End Type="SmartPrintModel.Usuarios" Role="Usuarios" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Empleado">
+              <PropertyRef Name="CedulaEmpleado" />
+            </Principal>
+            <Dependent Role="Usuarios">
+              <PropertyRef Name="CedulaEmpleado" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="Cedula" />
+          </Key>
+          <Property Name="Cedula" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Telefono" Type="String" Nullable="false" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="Ext" Type="Int32" />
+          <Property Name="Celular" Type="String" Nullable="false" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="Fax" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="Direccion" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Observaciones" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Habilitar" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="OrdenServicio" Relationship="SmartPrintModel.fkCedulaOrden" FromRole="Cliente" ToRole="OrdenServicio" />
+          <NavigationProperty Name="Remision" Relationship="SmartPrintModel.FkRemisionCliente" FromRole="Cliente" ToRole="Remision" />
+          <NavigationProperty Name="Factura" Relationship="SmartPrintModel.pkCCFac" FromRole="Cliente" ToRole="Factura" />
+          <Property Name="Usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Fecha" Type="DateTime" Precision="0" />
+          <Property Name="Contacto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="OrdenServicio">
+          <Key>
+            <PropertyRef Name="NumeroOrden" />
+          </Key>
+          <Property Name="NumeroOrden" Type="Int32" Nullable="false" />
+          <Property Name="NumeroRemision" Type="Int32" Nullable="false" />
+          <Property Name="Cedula" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Asignado" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="FechaOrden" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="FechaInicial" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Estado" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Observaciones" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Cliente" Relationship="SmartPrintModel.fkCedulaOrden" FromRole="OrdenServicio" ToRole="Cliente" />
+          <NavigationProperty Name="Empleado" Relationship="SmartPrintModel.fkEmpleadoOrden" FromRole="OrdenServicio" ToRole="Empleado" />
+          <NavigationProperty Name="Remision" Relationship="SmartPrintModel.fkNumeroRemision" FromRole="OrdenServicio" ToRole="Remision" />
+          <NavigationProperty Name="Factura" Relationship="SmartPrintModel.FKOrden" FromRole="OrdenServicio" ToRole="Factura" />
+          <Property Name="Usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <Association Name="fkCedulaOrden">
+          <End Type="SmartPrintModel.Cliente" Role="Cliente" Multiplicity="1" />
+          <End Type="SmartPrintModel.OrdenServicio" Role="OrdenServicio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="Cedula" />
+            </Principal>
+            <Dependent Role="OrdenServicio">
+              <PropertyRef Name="Cedula" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FkRemisionCliente">
+          <End Type="SmartPrintModel.Cliente" Role="Cliente" Multiplicity="0..1" />
+          <End Type="SmartPrintModel.Remision" Role="Remision" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="Cedula" />
+            </Principal>
+            <Dependent Role="Remision">
+              <PropertyRef Name="CcNit" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fkEmpleadoOrden">
+          <End Type="SmartPrintModel.Empleado" Role="Empleado" Multiplicity="1" />
+          <End Type="SmartPrintModel.OrdenServicio" Role="OrdenServicio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empleado">
+              <PropertyRef Name="CedulaEmpleado" />
+            </Principal>
+            <Dependent Role="OrdenServicio">
+              <PropertyRef Name="Asignado" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fkNumeroRemision">
+          <End Type="SmartPrintModel.Remision" Role="Remision" Multiplicity="1" />
+          <End Type="SmartPrintModel.OrdenServicio" Role="OrdenServicio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Remision">
+              <PropertyRef Name="NumeroRemision" />
+            </Principal>
+            <Dependent Role="OrdenServicio">
+              <PropertyRef Name="NumeroRemision" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Factura">
+          <Key>
+            <PropertyRef Name="NumeroFactura" />
+          </Key>
+          <Property Name="NumeroFactura" Type="Int32" Nullable="false" />
+          <Property Name="NumeroOrdSer" Type="Int32" Nullable="false" />
+          <Property Name="CCNit" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="FechaFactura" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="FechaVencimiento" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Observaciones" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Subtotal" Type="Double" Nullable="false" />
+          <Property Name="ValorIva" Type="Double" Nullable="false" />
+          <Property Name="Impuestos" Type="Double" Nullable="false" />
+          <Property Name="Descuento" Type="Double" Nullable="false" />
+          <Property Name="ValorTotal" Type="Double" Nullable="false" />
+          <NavigationProperty Name="Cliente" Relationship="SmartPrintModel.pkCCFac" FromRole="Factura" ToRole="Cliente" />
+          <NavigationProperty Name="OrdenServicio" Relationship="SmartPrintModel.FKOrden" FromRole="Factura" ToRole="OrdenServicio" />
+          <Property Name="Usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Estado" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NumeroRemision" Type="Int32" />
+          <NavigationProperty Name="Remision" Relationship="SmartPrintModel.fk_RemiFac" FromRole="Factura" ToRole="Remision" />
+        </EntityType>
+        <Association Name="pkCCFac">
+          <End Type="SmartPrintModel.Cliente" Role="Cliente" Multiplicity="1" />
+          <End Type="SmartPrintModel.Factura" Role="Factura" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="Cedula" />
+            </Principal>
+            <Dependent Role="Factura">
+              <PropertyRef Name="CCNit" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FKOrden">
+          <End Type="SmartPrintModel.OrdenServicio" Role="OrdenServicio" Multiplicity="1" />
+          <End Type="SmartPrintModel.Factura" Role="Factura" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OrdenServicio">
+              <PropertyRef Name="NumeroOrden" />
+            </Principal>
+            <Dependent Role="Factura">
+              <PropertyRef Name="NumeroOrdSer" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <ComplexType Name="Loguin_Result">
+          <Property Type="String" Name="Usuario" Nullable="false" MaxLength="10" />
+          <Property Type="String" Name="Contrasena" Nullable="false" MaxLength="15" />
+          <Property Type="String" Name="Perfil" Nullable="false" MaxLength="20" />
+        </ComplexType>
+        <ComplexType Name="BuscarMora_Result">
+          <Property Type="Int32" Name="NumeroFactura" Nullable="true" />
+          <Property Type="String" Name="Cedula" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="Fecha" Nullable="false" />
+          <Property Type="Double" Name="Total" Nullable="false" />
+        </ComplexType>
+        <EntityType Name="VistaMora">
+          <Key>
+            <PropertyRef Name="Fecha" />
+            <PropertyRef Name="Total" />
+          </Key>
+          <Property Name="NumeroFactura" Type="Int32" />
+          <Property Name="Cedula" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Total" Type="Double" Nullable="false" />
+        </EntityType>
+        <ComplexType Name="BuscarFacturaFechaCedula_Result">
+          <Property Type="String" Name="Factura" Nullable="true" MaxLength="5" />
+          <Property Type="Int32" Name="OS" Nullable="false" />
+          <Property Type="String" Name="Cèdula" Nullable="false" MaxLength="20" />
+          <Property Type="DateTime" Name="Creacion" Nullable="false" />
+          <Property Type="DateTime" Name="Vencimiento" Nullable="false" />
+          <Property Type="String" Name="Observaciones" Nullable="true" MaxLength="255" />
+          <Property Type="Double" Name="Iva" Nullable="false" />
+          <Property Type="Double" Name="Descuento" Nullable="false" />
+          <Property Type="Double" Name="Impuestos" Nullable="false" />
+          <Property Type="Double" Name="Total" Nullable="false" />
+          <Property Type="String" Name="Usuario" Nullable="true" MaxLength="20" />
+        </ComplexType>
+        <ComplexType Name="BuscarOrdenFechaCedula_Result">
+          <Property Type="String" Name="Orden" Nullable="true" MaxLength="5" />
+          <Property Type="Int32" Name="Remisiòn" Nullable="false" />
+          <Property Type="String" Name="Cedula" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="Asignado" Nullable="false" MaxLength="20" />
+          <Property Type="DateTime" Name="Vencimiento" Nullable="false" />
+          <Property Type="DateTime" Name="Creacion" Nullable="false" />
+          <Property Type="String" Name="Estado" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="Observaciones" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="Usuario" Nullable="true" MaxLength="20" />
+        </ComplexType>
+        <ComplexType Name="BuscarRemisionFechaCedula_Result">
+          <Property Type="String" Name="Remisiòn" Nullable="true" MaxLength="5" />
+          <Property Type="String" Name="Cedula" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="Creaciòn" Nullable="false" />
+          <Property Type="DateTime" Name="Vencimiento" Nullable="false" />
+          <Property Type="String" Name="Observaciones" Nullable="true" MaxLength="50" />
+          <Property Type="Double" Name="Total" Nullable="true" />
+          <Property Type="String" Name="Usuario" Nullable="true" MaxLength="20" />
+        </ComplexType>
+        <ComplexType Name="BuscarProveedor_Result">
+          <Property Type="String" Name="Nit" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="Razón_social" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Contacto" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Teléfono" Nullable="false" MaxLength="11" />
+          <Property Type="String" Name="Usuario" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="Fecha" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="BuscClientes_Result">
+          <Property Type="String" Name="Identificación" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="Nombre" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Teléfono" Nullable="false" MaxLength="11" />
+          <Property Type="String" Name="Celular" Nullable="false" MaxLength="11" />
+          <Property Type="String" Name="Usuario" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="Fecha" Nullable="true" />
+        </ComplexType>
+        <EntityType Name="VistaEmpleados">
+          <Key>
+            <PropertyRef Name="CedulaEmpleado" />
+          </Key>
+          <Property Name="CedulaEmpleado" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="NombreCompleto" Type="String" MaxLength="83" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="VistaUsuarios">
+          <Key>
+            <PropertyRef Name="Cédula" />
+            <PropertyRef Name="Usuario" />
+            <PropertyRef Name="Perfil" />
+            <PropertyRef Name="Estado" />
+          </Key>
+          <Property Name="Cédula" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Nombre" Type="String" MaxLength="83" FixedLength="false" Unicode="true" />
+          <Property Name="Usuario" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Perfil" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Estado" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Creador" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Fecha" Type="DateTime" Precision="0" />
+        </EntityType>
+        <ComplexType Name="BuscaEmpleados_Result">
+          <Property Type="String" Name="Cédula" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="Nombre" Nullable="true" MaxLength="83" />
+          <Property Type="String" Name="Teléfono" Nullable="false" MaxLength="11" />
+          <Property Type="String" Name="Celular" Nullable="true" MaxLength="11" />
+          <Property Type="String" Name="Cargo" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Usuario" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="Fecha" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="ReporteFactura_Result">
+          <Property Type="String" Name="NumeroFactura" Nullable="true" MaxLength="5" />
+          <Property Type="String" Name="Cedula" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="Nombre" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Direccion" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Telefono" Nullable="false" MaxLength="11" />
+          <Property Type="DateTime" Name="FechaFactura" Nullable="false" />
+          <Property Type="DateTime" Name="FechaVencimiento" Nullable="false" />
+          <Property Type="String" Name="estado" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="Observaciones" Nullable="true" MaxLength="255" />
+          <Property Type="Int32" Name="Item" Nullable="false" />
+          <Property Type="Int32" Name="Cantidad" Nullable="false" />
+          <Property Type="Double" Name="ValorUnitario" Nullable="false" />
+          <Property Type="Double" Name="SubtotalSer" Nullable="false" />
+          <Property Type="Double" Name="SubTotal" Nullable="false" />
+          <Property Type="Double" Name="ValorIva" Nullable="false" />
+          <Property Type="Double" Name="Impuestos" Nullable="false" />
+          <Property Type="Double" Name="Descuento" Nullable="false" />
+          <Property Type="Double" Name="Total" Nullable="false" />
+          <Property Type="String" Name="NombreServicio" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Mora" Nullable="true" MaxLength="20" />
+          <Property Type="Int32" Name="NumeroOrden" Nullable="false" />
+          <Property Type="String" Name="EstadoFac" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <Association Name="fk_RemiFac">
+          <End Type="SmartPrintModel.Remision" Role="Remision" Multiplicity="0..1" />
+          <End Type="SmartPrintModel.Factura" Role="Factura" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Remision">
+              <PropertyRef Name="NumeroRemision" />
+            </Principal>
+            <Dependent Role="Factura">
+              <PropertyRef Name="NumeroRemision" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <ComplexType Name="BuscarRemision_Result">
+          <Property Type="String" Name="CcNit" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="Nombre" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Direccion" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Telefono" Nullable="false" MaxLength="11" />
+          <Property Type="Double" Name="Subtotal" Nullable="true" />
+          <Property Type="Double" Name="Iva" Nullable="true" />
+          <Property Type="Double" Name="Total" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="BuscarNomCli_Result">
+          <Property Type="String" Name="Identificación" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="Nombre" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Teléfono" Nullable="false" MaxLength="11" />
+          <Property Type="String" Name="Celular" Nullable="false" MaxLength="11" />
+          <Property Type="String" Name="Usuario" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="Fecha" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="MostrarDian_Result">
+          <Property Type="Double" Name="RangoInicial" Nullable="false" />
+          <Property Type="Double" Name="RangoFinal" Nullable="false" />
+          <Property Type="String" Name="Usuario" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="Fecha" Nullable="false" />
+        </ComplexType>
+        <EntityType Name="Dian">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RangoInicial" Type="Double" Nullable="false" />
+          <Property Name="RangoFinal" Type="Double" Nullable="false" />
+          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Resolución" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Estado" Type="Int32" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SmartPrintModelStoreContainer" CdmEntityContainer="SmartPrintEntities">
+          <EntitySetMapping Name="OtrosServicios">
+            <EntityTypeMapping TypeName="SmartPrintModel.OtrosServicios">
+              <MappingFragment StoreEntitySet="OtrosServicios">
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="Idproveedor" ColumnName="Idproveedor" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="Serial" ColumnName="Serial" />
+                <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Proveedores">
+            <EntityTypeMapping TypeName="SmartPrintModel.Proveedores">
+              <MappingFragment StoreEntitySet="Proveedores">
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Nit" ColumnName="Nit" />
+                <ScalarProperty Name="RazonSocial" ColumnName="RazonSocial" />
+                <ScalarProperty Name="Contacto" ColumnName="Contacto" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+                <ScalarProperty Name="Ext" ColumnName="Ext" />
+                <ScalarProperty Name="Fax" ColumnName="Fax" />
+                <ScalarProperty Name="Celular" ColumnName="Celular" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="Habilitar" ColumnName="Habilitar" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Remision">
+            <EntityTypeMapping TypeName="SmartPrintModel.Remision">
+              <MappingFragment StoreEntitySet="Remision">
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Iva" ColumnName="Iva" />
+                <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+                <ScalarProperty Name="NumeroRemision" ColumnName="NumeroRemision" />
+                <ScalarProperty Name="CcNit" ColumnName="CcNit" />
+                <ScalarProperty Name="FechaRemision" ColumnName="FechaRemision" />
+                <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RemisionServicos">
+            <EntityTypeMapping TypeName="SmartPrintModel.RemisionServicos">
+              <MappingFragment StoreEntitySet="RemisionServicos">
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="IdRemisionServicios" ColumnName="IdRemisionServicios" />
+                <ScalarProperty Name="NumeroRemision" ColumnName="NumeroRemision" />
+                <ScalarProperty Name="Item" ColumnName="Item" />
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+                <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+                <ScalarProperty Name="ValorTotal" ColumnName="ValorTotal" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Servicios">
+            <EntityTypeMapping TypeName="SmartPrintModel.Servicios">
+              <MappingFragment StoreEntitySet="Servicios">
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+                <ScalarProperty Name="Item" ColumnName="Item" />
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Usuarios">
+            <EntityTypeMapping TypeName="SmartPrintModel.Usuarios">
+              <MappingFragment StoreEntitySet="Usuarios">
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Creador" ColumnName="Creador" />
+                <ScalarProperty Name="CedulaEmpleado" ColumnName="CedulaEmpleado" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Contrasena" ColumnName="Contrasena" />
+                <ScalarProperty Name="Perfil" ColumnName="Perfil" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MostrarComboProveedor">
+            <EntityTypeMapping TypeName="SmartPrintModel.MostrarComboProveedor">
+              <MappingFragment StoreEntitySet="MostrarComboProveedor">
+                <ScalarProperty Name="Nit" ColumnName="Nit" />
+                <ScalarProperty Name="RazonSocial" ColumnName="RazonSocial" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VistaOtrosServicios">
+            <EntityTypeMapping TypeName="SmartPrintModel.VistaOtrosServicios">
+              <MappingFragment StoreEntitySet="VistaOtrosServicios">
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="Idproveedor" ColumnName="Idproveedor" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="Serial" ColumnName="Serial" />
+                <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VistaServicios">
+            <EntityTypeMapping TypeName="SmartPrintModel.VistaServicios">
+              <MappingFragment StoreEntitySet="VistaServicios">
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+                <ScalarProperty Name="Item" ColumnName="Item" />
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="BuscarUsuario" FunctionName="SmartPrintModel.Store.BuscarUsuario" />
+          <FunctionImportMapping FunctionImportName="GestionarOtrosServicio" FunctionName="SmartPrintModel.Store.GestionarOtrosServicio" />
+          <FunctionImportMapping FunctionImportName="GestionarProveedor" FunctionName="SmartPrintModel.Store.GestionarProveedor" />
+          <FunctionImportMapping FunctionImportName="GestionarServicio" FunctionName="SmartPrintModel.Store.GestionarServicio" />
+          <FunctionImportMapping FunctionImportName="ObtenerOtroServicio" FunctionName="SmartPrintModel.Store.ObtenerOtroServicio">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.ObtenerOtroServicio_Result">
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="ObtenerServicios" FunctionName="SmartPrintModel.Store.ObtenerServicios">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.ObtenerServicios_Result">
+                <ScalarProperty Name="Item" ColumnName="Item" />
+                <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+                <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="RegistrarOrden" FunctionName="SmartPrintModel.Store.RegistrarOrden" />
+          <FunctionImportMapping FunctionImportName="RegistrarRemisionServicios" FunctionName="SmartPrintModel.Store.RegistrarRemisionServicios" />
+          <FunctionImportMapping FunctionImportName="GestionarUsuarios" FunctionName="SmartPrintModel.Store.GestionarUsuarios" />
+          <FunctionImportMapping FunctionImportName="BuscarServicioFactura" FunctionName="SmartPrintModel.Store.BuscarServicioFactura">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.BuscarServicioFactura_Result">
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+                <ScalarProperty Name="Valor_Unitario" ColumnName="Valor Unitario" />
+                <ScalarProperty Name="Valor_Total" ColumnName="Valor Total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SpBuscar_RemisionServicios" FunctionName="SmartPrintModel.Store.SpBuscar_RemisionServicios">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.SpBuscar_RemisionServicios_Result">
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+                <ScalarProperty Name="Valor_Unitario" ColumnName="Valor Unitario" />
+                <ScalarProperty Name="Valor_Total" ColumnName="Valor Total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GestionarCliente" FunctionName="SmartPrintModel.Store.GestionarCliente" />
+          <FunctionImportMapping FunctionImportName="GestionarEmpleado" FunctionName="SmartPrintModel.Store.GestionarEmpleado" />
+          <EntitySetMapping Name="Empleado">
+            <EntityTypeMapping TypeName="SmartPrintModel.Empleado">
+              <MappingFragment StoreEntitySet="Empleado">
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="ARP" ColumnName="ARP" />
+                <ScalarProperty Name="Pensiones" ColumnName="Pensiones" />
+                <ScalarProperty Name="CajaCompensaciones" ColumnName="CajaCompensaciones" />
+                <ScalarProperty Name="Eps" ColumnName="Eps" />
+                <ScalarProperty Name="Salario" ColumnName="Salario" />
+                <ScalarProperty Name="Contrato" ColumnName="Contrato" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="FechadeRetiro" ColumnName="FechadeRetiro" />
+                <ScalarProperty Name="Disponibilidad" ColumnName="Disponibilidad" />
+                <ScalarProperty Name="FechadeIngreso" ColumnName="FechadeIngreso" />
+                <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+                <ScalarProperty Name="FechadeNacimiento" ColumnName="FechadeNacimiento" />
+                <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Celular" ColumnName="Celular" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+                <ScalarProperty Name="SegundoApellido" ColumnName="SegundoApellido" />
+                <ScalarProperty Name="PrimerApellido" ColumnName="PrimerApellido" />
+                <ScalarProperty Name="SegundoNombre" ColumnName="SegundoNombre" />
+                <ScalarProperty Name="PrimerNombre" ColumnName="PrimerNombre" />
+                <ScalarProperty Name="CedulaEmpleado" ColumnName="CedulaEmpleado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="MostrarCodigo" FunctionName="SmartPrintModel.Store.MostrarCodigo" />
+          <EntitySetMapping Name="Cliente">
+            <EntityTypeMapping TypeName="SmartPrintModel.Cliente">
+              <MappingFragment StoreEntitySet="Cliente">
+                <ScalarProperty Name="Contacto" ColumnName="Contacto" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Habilitar" ColumnName="Habilitar" />
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Fax" ColumnName="Fax" />
+                <ScalarProperty Name="Celular" ColumnName="Celular" />
+                <ScalarProperty Name="Ext" ColumnName="Ext" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrdenServicio">
+            <EntityTypeMapping TypeName="SmartPrintModel.OrdenServicio">
+              <MappingFragment StoreEntitySet="OrdenServicio">
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+                <ScalarProperty Name="FechaInicial" ColumnName="FechaInicial" />
+                <ScalarProperty Name="FechaOrden" ColumnName="FechaOrden" />
+                <ScalarProperty Name="Asignado" ColumnName="Asignado" />
+                <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+                <ScalarProperty Name="NumeroRemision" ColumnName="NumeroRemision" />
+                <ScalarProperty Name="NumeroOrden" ColumnName="NumeroOrden" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Factura">
+            <EntityTypeMapping TypeName="SmartPrintModel.Factura">
+              <MappingFragment StoreEntitySet="Factura">
+                <ScalarProperty Name="NumeroRemision" ColumnName="NumeroRemision" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="ValorTotal" ColumnName="ValorTotal" />
+                <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+                <ScalarProperty Name="Impuestos" ColumnName="Impuestos" />
+                <ScalarProperty Name="ValorIva" ColumnName="ValorIva" />
+                <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+                <ScalarProperty Name="FechaFactura" ColumnName="FechaFactura" />
+                <ScalarProperty Name="CCNit" ColumnName="CCNit" />
+                <ScalarProperty Name="NumeroOrdSer" ColumnName="NumeroOrdSer" />
+                <ScalarProperty Name="NumeroFactura" ColumnName="NumeroFactura" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="MostrarCodigoFactura" FunctionName="SmartPrintModel.Store.MostrarCodigoFactura" />
+          <FunctionImportMapping FunctionImportName="Loguin" FunctionName="SmartPrintModel.Store.Loguin">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.Loguin_Result">
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Contrasena" ColumnName="Contrasena" />
+                <ScalarProperty Name="Perfil" ColumnName="Perfil" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="BuscarMora" FunctionName="SmartPrintModel.Store.BuscarMora">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.BuscarMora_Result">
+                <ScalarProperty Name="NumeroFactura" ColumnName="NumeroFactura" />
+                <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="VistaMora">
+            <EntityTypeMapping TypeName="SmartPrintModel.VistaMora">
+              <MappingFragment StoreEntitySet="VistaMora">
+                <ScalarProperty Name="Total" ColumnName="Total" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+                <ScalarProperty Name="NumeroFactura" ColumnName="NumeroFactura" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="BuscarFacturaFechaCedula" FunctionName="SmartPrintModel.Store.BuscarFacturaFechaCedula">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.BuscarFacturaFechaCedula_Result">
+                <ScalarProperty Name="Factura" ColumnName="Factura" />
+                <ScalarProperty Name="OS" ColumnName="OS" />
+                <ScalarProperty Name="Cèdula" ColumnName="Cèdula" />
+                <ScalarProperty Name="Creacion" ColumnName="Creacion" />
+                <ScalarProperty Name="Vencimiento" ColumnName="Vencimiento" />
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="Iva" ColumnName="Iva" />
+                <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+                <ScalarProperty Name="Impuestos" ColumnName="Impuestos" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="BuscarOrdenFechaCedula" FunctionName="SmartPrintModel.Store.BuscarOrdenFechaCedula">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.BuscarOrdenFechaCedula_Result">
+                <ScalarProperty Name="Orden" ColumnName="Orden" />
+                <ScalarProperty Name="Remisiòn" ColumnName="Remisiòn" />
+                <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+                <ScalarProperty Name="Asignado" ColumnName="Asignado" />
+                <ScalarProperty Name="Vencimiento" ColumnName="Vencimiento" />
+                <ScalarProperty Name="Creacion" ColumnName="Creacion" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="BuscarRemisionFechaCedula" FunctionName="SmartPrintModel.Store.BuscarRemisionFechaCedula">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.BuscarRemisionFechaCedula_Result">
+                <ScalarProperty Name="Remisiòn" ColumnName="Remisiòn" />
+                <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+                <ScalarProperty Name="Creaciòn" ColumnName="Creaciòn" />
+                <ScalarProperty Name="Vencimiento" ColumnName="Vencimiento" />
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="RegistrarRemision" FunctionName="SmartPrintModel.Store.RegistrarRemision" />
+          <FunctionImportMapping FunctionImportName="BuscarProveedor" FunctionName="SmartPrintModel.Store.BuscarProveedor">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.BuscarProveedor_Result">
+                <ScalarProperty Name="Nit" ColumnName="Nit" />
+                <ScalarProperty Name="Razón_social" ColumnName="Razón social" />
+                <ScalarProperty Name="Contacto" ColumnName="Contacto" />
+                <ScalarProperty Name="Teléfono" ColumnName="Teléfono" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="BuscClientes" FunctionName="SmartPrintModel.Store.BuscClientes">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.BuscClientes_Result">
+                <ScalarProperty Name="Identificación" ColumnName="Identificación" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Teléfono" ColumnName="Teléfono" />
+                <ScalarProperty Name="Celular" ColumnName="Celular" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="VistaEmpleados">
+            <EntityTypeMapping TypeName="SmartPrintModel.VistaEmpleados">
+              <MappingFragment StoreEntitySet="VistaEmpleados">
+                <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+                <ScalarProperty Name="CedulaEmpleado" ColumnName="CedulaEmpleado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VistaUsuarios">
+            <EntityTypeMapping TypeName="SmartPrintModel.VistaUsuarios">
+              <MappingFragment StoreEntitySet="VistaUsuarios">
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Creador" ColumnName="Creador" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+                <ScalarProperty Name="Perfil" ColumnName="Perfil" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Cédula" ColumnName="Cédula" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="BuscaEmpleados" FunctionName="SmartPrintModel.Store.BuscaEmpleados">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.BuscaEmpleados_Result">
+                <ScalarProperty Name="Cédula" ColumnName="Cédula" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Teléfono" ColumnName="Teléfono" />
+                <ScalarProperty Name="Celular" ColumnName="Celular" />
+                <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="InhabilitarFactura" FunctionName="SmartPrintModel.Store.InhabilitarFactura" />
+          <FunctionImportMapping FunctionImportName="RegistrarFactura" FunctionName="SmartPrintModel.Store.RegistrarFactura" />
+          <FunctionImportMapping FunctionImportName="ReporteFactura" FunctionName="SmartPrintModel.Store.ReporteFactura">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.ReporteFactura_Result">
+                <ScalarProperty Name="NumeroFactura" ColumnName="NumeroFactura" />
+                <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+                <ScalarProperty Name="FechaFactura" ColumnName="FechaFactura" />
+                <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+                <ScalarProperty Name="estado" ColumnName="estado" />
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="Item" ColumnName="Item" />
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+                <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+                <ScalarProperty Name="SubtotalSer" ColumnName="SubtotalSer" />
+                <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+                <ScalarProperty Name="ValorIva" ColumnName="ValorIva" />
+                <ScalarProperty Name="Impuestos" ColumnName="Impuestos" />
+                <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+                <ScalarProperty Name="NombreServicio" ColumnName="NombreServicio" />
+                <ScalarProperty Name="Mora" ColumnName="Mora" />
+                <ScalarProperty Name="NumeroOrden" ColumnName="NumeroOrden" />
+                <ScalarProperty Name="EstadoFac" ColumnName="EstadoFac" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="BuscarRemision" FunctionName="SmartPrintModel.Store.BuscarRemision">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.BuscarRemision_Result">
+                <ScalarProperty Name="CcNit" ColumnName="CcNit" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+                <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+                <ScalarProperty Name="Iva" ColumnName="Iva" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="BuscarNomCli" FunctionName="SmartPrintModel.Store.BuscarNomCli">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.BuscarNomCli_Result">
+                <ScalarProperty Name="Identificación" ColumnName="Identificación" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Teléfono" ColumnName="Teléfono" />
+                <ScalarProperty Name="Celular" ColumnName="Celular" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="MostrarDian" FunctionName="SmartPrintModel.Store.MostrarDian">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SmartPrintModel.MostrarDian_Result">
+                <ScalarProperty Name="RangoInicial" ColumnName="RangoInicial" />
+                <ScalarProperty Name="RangoFinal" ColumnName="RangoFinal" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="Dian">
+            <EntityTypeMapping TypeName="SmartPrintModel.Dian">
+              <MappingFragment StoreEntitySet="Dian">
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+                <ScalarProperty Name="Resolución" ColumnName="Resolución" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="RangoFinal" ColumnName="RangoFinal" />
+                <ScalarProperty Name="RangoInicial" ColumnName="RangoInicial" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="RangoDian" FunctionName="SmartPrintModel.Store.RangoDian" />
+          <FunctionImportMapping FunctionImportName="SeleccionarRango" FunctionName="SmartPrintModel.Store.SeleccionarRango" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E420368B-839A-47D5-B4C9-CB2DCBA33701}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmartPrint</RootNamespace>
+    <AssemblyName>SmartPrint</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClientes.Designer.cs">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultas.Designer.cs">
+      <DependentUpon>FrmConsultas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDian.Designer.cs">
+      <DependentUpon>FrmDian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmpleado.Designer.cs">
+      <DependentUpon>FrmEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFactura.Designer.cs">
+      <DependentUpon>FrmFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicio.Designer.cs">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu.Designer.cs">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMora.Designer.cs">
+      <DependentUpon>FrmMora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrdenServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrdenServicio.Designer.cs">
+      <DependentUpon>FrmOrdenServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOtrosServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOtrosServicios.Designer.cs">
+      <DependentUpon>FrmOtrosServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProveedores.Designer.cs">
+      <DependentUpon>FrmProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRemision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRemision.Designer.cs">
+      <DependentUpon>FrmRemision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmServicios.Designer.cs">
+      <DependentUpon>FrmServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSplash.Designer.cs">
+      <DependentUpon>FrmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuarios.Designer.cs">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarReporteGeneralOrden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MostrarReporteGeneralOrden.Designer.cs">
+      <DependentUpon>MostrarReporteGeneralOrden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarReporteGeneralRemision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MostrarReporteGeneralRemision.Designer.cs">
+      <DependentUpon>MostrarReporteGeneralRemision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarReporteOrden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MostrarReporteOrden.Designer.cs">
+      <DependentUpon>MostrarReporteOrden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MostrarReporteRemision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MostrarReporteRemision.Designer.cs">
+      <DependentUpon>MostrarReporteRemision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarReporteFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MostrarReporteFactura.Designer.cs">
+      <DependentUpon>MostrarReporteFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarReporteGeneralFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteGeneralFactura.Designer.cs">
+      <DependentUpon>MostrarReporteGeneralFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartPrintDataSet.cs">
+      <DependentUpon>SmartPrintDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SmartPrintDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SmartPrintDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VistaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistaClientes.Designer.cs">
+      <DependentUpon>VistaClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistaDian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistaDian.Designer.cs">
+      <DependentUpon>VistaDian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistaEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistaEmpleados.Designer.cs">
+      <DependentUpon>VistaEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistaProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistaProveedores.Designer.cs">
+      <DependentUpon>VistaProveedores.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmClientes.resx">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultas.resx">
+      <DependentUpon>FrmConsultas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDian.resx">
+      <DependentUpon>FrmDian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmpleado.resx">
+      <DependentUpon>FrmEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFactura.resx">
+      <DependentUpon>FrmFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicio.resx">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenu.resx">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMora.resx">
+      <DependentUpon>FrmMora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrdenServicio.resx">
+      <DependentUpon>FrmOrdenServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOtrosServicios.resx">
+      <DependentUpon>FrmOtrosServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProveedores.resx">
+      <DependentUpon>FrmProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRemision.resx">
+      <DependentUpon>FrmRemision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmServicios.resx">
+      <DependentUpon>FrmServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSplash.resx">
+      <DependentUpon>FrmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostrarReporteFactura.resx">
+      <DependentUpon>MostrarReporteFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostrarReporteGeneralFactura.resx">
+      <DependentUpon>MostrarReporteGeneralFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostrarReporteGeneralOrden.resx">
+      <DependentUpon>MostrarReporteGeneralOrden.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostrarReporteGeneralRemision.resx">
+      <DependentUpon>MostrarReporteGeneralRemision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostrarReporteOrden.resx">
+      <DependentUpon>MostrarReporteOrden.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="MostrarReporteRemision.resx">
+      <DependentUpon>MostrarReporteRemision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteFactura.rdlc" />
+    <EmbeddedResource Include="ReporteGeneralFactura.rdlc" />
+    <EmbeddedResource Include="ReporteGeneralOrden.rdlc" />
+    <EmbeddedResource Include="ReporteGeneralRemision.rdlc" />
+    <EmbeddedResource Include="ReporteOrden.rdlc" />
+    <EmbeddedResource Include="ReporteRemision.rdlc" />
+    <EmbeddedResource Include="VistaClientes.resx">
+      <DependentUpon>VistaClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistaDian.resx">
+      <DependentUpon>VistaDian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistaEmpleados.resx">
+      <DependentUpon>VistaEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistaProveedores.resx">
+      <DependentUpon>VistaProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SmartPrintDataSet.xsc">
+      <DependentUpon>SmartPrintDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SmartPrintDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SmartPrintDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SmartPrintDataSet.xss">
+      <DependentUpon>SmartPrintDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logica\Logica.csproj">
+      <Project>{56d61070-7e2f-48fa-8e68-bac33f9d6082}</Project>
+      <Name>Logica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BoxICO.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caja.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

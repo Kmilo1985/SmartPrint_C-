@@ -1,0 +1,171 @@
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Diablo\Documents\Visual Studio 2013\Projects\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Diablo\Downloads\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Diablo\Downloads\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Diablo\Downloads\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Diablo\Downloads\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Diablo\Downloads\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Diablo\Downloads\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Diablo\Downloads\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Diablo\Downloads\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Diablo\Downloads\SmartPrint\Logica\obj\Debug\Logica.pdb
+D:\Deysi\SmartPrint\Logica\bin\Debug\Logica.dll
+D:\Deysi\SmartPrint\Logica\bin\Debug\Logica.pdb
+D:\Deysi\SmartPrint\Logica\bin\Debug\Datos.dll
+D:\Deysi\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+D:\Deysi\SmartPrint\Logica\bin\Debug\Datos.pdb
+D:\Deysi\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+D:\Deysi\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+D:\Deysi\SmartPrint\Logica\obj\Debug\Logica.dll
+D:\Deysi\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Alex Gallego\Downloads\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Alex Gallego\Downloads\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Alex Gallego\Downloads\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Alex Gallego\Downloads\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Alex Gallego\Downloads\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Alex Gallego\Downloads\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Alex Gallego\Downloads\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Alex Gallego\Downloads\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Alex Gallego\Downloads\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Alex Gallego\Desktop\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Noche\Desktop\Smart\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Noche\Desktop\Smart\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Noche\Desktop\Smart\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Noche\Desktop\Smart\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Noche\Desktop\Smart\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Noche\Desktop\Smart\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Noche\Desktop\Smart\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Noche\Desktop\Smart\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Noche\Desktop\Smart\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Diablo\Downloads\Smart\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Administrador\Desktop\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Administrador\Desktop\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Administrador\Desktop\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Administrador\Desktop\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Administrador\Desktop\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Administrador\Desktop\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Diablo\Desktop\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Diablo\Desktop\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Diablo\Desktop\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Diablo\Desktop\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Diablo\Desktop\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Diablo\Desktop\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Diablo\Desktop\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Diablo\Desktop\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Diablo\Desktop\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Deisy\Downloads\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Deisy\Downloads\SmartPrint\Logica\obj\Debug\Logica.pdb
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Logica\bin\Debug\Logica.dll
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Logica\bin\Debug\Logica.pdb
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Logica\bin\Debug\Datos.dll
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Logica\bin\Debug\Datos.pdb
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Logica\obj\Debug\Logica.dll
+D:\Proyecto_Deisy\SmartPrint-2015-02-22\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Deisy\Downloads\Proyecto_Entregar\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\SmartPrint\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Deisy\Desktop\SmartPrint\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Deisy\Downloads\Ultima copia\SmartPrint\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Deisy\Downloads\AntesDeRemision\SmartPrint\Logica\obj\Debug\Logica.pdb
+C:\Users\Deisy\Desktop\SmartPrint\Logica\bin\Debug\Logica.dll
+C:\Users\Deisy\Desktop\SmartPrint\Logica\bin\Debug\Logica.pdb
+C:\Users\Deisy\Desktop\SmartPrint\Logica\bin\Debug\Datos.dll
+C:\Users\Deisy\Desktop\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+C:\Users\Deisy\Desktop\SmartPrint\Logica\bin\Debug\Datos.pdb
+C:\Users\Deisy\Desktop\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+C:\Users\Deisy\Desktop\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Deisy\Desktop\SmartPrint\Logica\obj\Debug\Logica.dll
+C:\Users\Deisy\Desktop\SmartPrint\Logica\obj\Debug\Logica.pdb
+D:\todo\SmartPrint\Logica\bin\Debug\Logica.dll
+D:\todo\SmartPrint\Logica\bin\Debug\Logica.pdb
+D:\todo\SmartPrint\Logica\bin\Debug\Datos.dll
+D:\todo\SmartPrint\Logica\bin\Debug\EntityFramework.dll
+D:\todo\SmartPrint\Logica\bin\Debug\Datos.pdb
+D:\todo\SmartPrint\Logica\bin\Debug\EntityFramework.xml
+D:\todo\SmartPrint\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+D:\todo\SmartPrint\Logica\obj\Debug\Logica.dll
+D:\todo\SmartPrint\Logica\obj\Debug\Logica.pdb

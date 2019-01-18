@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SmartPrintModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SmartPrintEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Cliente" EntityType="SmartPrintModel.Cliente" />
+    <EntitySet Name="Empleado" EntityType="SmartPrintModel.Empleado" />
+    <EntitySet Name="Factura" EntityType="SmartPrintModel.Factura" />
+    <EntitySet Name="OrdenServicio" EntityType="SmartPrintModel.OrdenServicio" />
+    <EntitySet Name="OtrosServicios" EntityType="SmartPrintModel.OtrosServicios" />
+    <EntitySet Name="Proveedores" EntityType="SmartPrintModel.Proveedores" />
+    <EntitySet Name="Remisión" EntityType="SmartPrintModel.Remisión" />
+    <EntitySet Name="RemisionOtroServicios" EntityType="SmartPrintModel.RemisionOtroServicios" />
+    <EntitySet Name="RemisionServicos" EntityType="SmartPrintModel.RemisionServicos" />
+    <EntitySet Name="Servicios" EntityType="SmartPrintModel.Servicios" />
+    <EntitySet Name="Usuarios" EntityType="SmartPrintModel.Usuarios" />
+    <AssociationSet Name="FkRemisionCliente" Association="SmartPrintModel.FkRemisionCliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Remisión" EntitySet="Remisión" />
+    </AssociationSet>
+    <AssociationSet Name="FkUsuarioEmpleado" Association="SmartPrintModel.FkUsuarioEmpleado">
+      <End Role="Empleado" EntitySet="Empleado" />
+      <End Role="Usuarios" EntitySet="Usuarios" />
+    </AssociationSet>
+    <AssociationSet Name="FkFacturaOrden" Association="SmartPrintModel.FkFacturaOrden">
+      <End Role="OrdenServicio" EntitySet="OrdenServicio" />
+      <End Role="Factura" EntitySet="Factura" />
+    </AssociationSet>
+    <AssociationSet Name="FkOrdenRemision" Association="SmartPrintModel.FkOrdenRemision">
+      <End Role="Remisión" EntitySet="Remisión" />
+      <End Role="OrdenServicio" EntitySet="OrdenServicio" />
+    </AssociationSet>
+    <AssociationSet Name="CodOS" Association="SmartPrintModel.CodOS">
+      <End Role="OtrosServicios" EntitySet="OtrosServicios" />
+      <End Role="RemisionOtroServicios" EntitySet="RemisionOtroServicios" />
+    </AssociationSet>
+    <AssociationSet Name="FkProveeOtros" Association="SmartPrintModel.FkProveeOtros">
+      <End Role="Proveedores" EntitySet="Proveedores" />
+      <End Role="OtrosServicios" EntitySet="OtrosServicios" />
+    </AssociationSet>
+    <AssociationSet Name="FkNumeroRs" Association="SmartPrintModel.FkNumeroRs">
+      <End Role="Remisión" EntitySet="Remisión" />
+      <End Role="RemisionServicos" EntitySet="RemisionServicos" />
+    </AssociationSet>
+    <AssociationSet Name="PkRemiOtroServicio" Association="SmartPrintModel.PkRemiOtroServicio">
+      <End Role="Remisión" EntitySet="Remisión" />
+      <End Role="RemisionOtroServicios" EntitySet="RemisionOtroServicios" />
+    </AssociationSet>
+    <AssociationSet Name="FkItemRemiServi" Association="SmartPrintModel.FkItemRemiServi">
+      <End Role="Servicios" EntitySet="Servicios" />
+      <End Role="RemisionServicos" EntitySet="RemisionServicos" />
+    </AssociationSet>
+    <FunctionImport Name="Loguin">
+      <Parameter Name="Usuario" Mode="In" Type="String" />
+      <Parameter Name="Contrasena" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="Cedula" />
+    </Key>
+    <Property Name="Cedula" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Apellido" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Telefono" Type="Int32" Nullable="false" />
+    <Property Name="Ext" Type="Int32" />
+    <Property Name="Celular" Type="Int32" Nullable="false" />
+    <Property Name="Fax" Type="Int32" />
+    <Property Name="Direccion" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Observaciones" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Habilitar" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Remisión" Relationship="SmartPrintModel.FkRemisionCliente" FromRole="Cliente" ToRole="Remisión" />
+  </EntityType>
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="CedulaEmpleado" />
+    </Key>
+    <Property Name="CedulaEmpleado" Type="Int32" Nullable="false" />
+    <Property Name="PrimerNombre" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="SegundoNombre" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="PrimerApellido" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="SegundoApellido" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Telefono" Type="Int32" />
+    <Property Name="Celular" Type="Int32" />
+    <Property Name="Direccion" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Sexo" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="FechadeNacimiento" Type="DateTime" Precision="0" />
+    <Property Name="Cargo" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="FechadeIngreso" Type="DateTime" Precision="0" />
+    <Property Name="Disponibilidad" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="FechadeRetiro" Type="DateTime" Precision="0" />
+    <Property Name="Observaciones" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Estado" Type="String" MaxLength="1" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Usuarios" Relationship="SmartPrintModel.FkUsuarioEmpleado" FromRole="Empleado" ToRole="Usuarios" />
+  </EntityType>
+  <EntityType Name="Factura">
+    <Key>
+      <PropertyRef Name="NumeroFactura" />
+    </Key>
+    <Property Name="NumeroFactura" Type="Int32" Nullable="false" />
+    <Property Name="NumeroOrdSer" Type="Int32" />
+    <Property Name="CcNit" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Direccion" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Telefono" Type="Int32" Nullable="false" />
+    <Property Name="FechaFactura" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="FechaVencimiento" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Observaciones" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ValorTotal" Type="Double" Nullable="false" />
+    <Property Name="ValorIva" Type="Double" Nullable="false" />
+    <Property Name="Descuento" Type="Double" />
+    <Property Name="Impuesto" Type="Double" />
+    <NavigationProperty Name="OrdenServicio" Relationship="SmartPrintModel.FkFacturaOrden" FromRole="Factura" ToRole="OrdenServicio" />
+  </EntityType>
+  <EntityType Name="OrdenServicio">
+    <Key>
+      <PropertyRef Name="NumeroOrden" />
+    </Key>
+    <Property Name="NumeroOrden" Type="Int32" Nullable="false" />
+    <Property Name="NumeroRemision" Type="Int32" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Direccion" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Telefono" Type="Int32" Nullable="false" />
+    <Property Name="Asignado" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="FechaOrden" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Observaciones" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ValorTotal" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Factura" Relationship="SmartPrintModel.FkFacturaOrden" FromRole="OrdenServicio" ToRole="Factura" />
+    <NavigationProperty Name="Remisión" Relationship="SmartPrintModel.FkOrdenRemision" FromRole="OrdenServicio" ToRole="Remisión" />
+  </EntityType>
+  <EntityType Name="OtrosServicios">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" />
+    <Property Name="Idproveedor" Type="Int32" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Tipo" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Observaciones" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Serial" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ValorUnitario" Type="Double" Nullable="false" />
+    <NavigationProperty Name="RemisionOtroServicios" Relationship="SmartPrintModel.CodOS" FromRole="OtrosServicios" ToRole="RemisionOtroServicios" />
+    <NavigationProperty Name="Proveedores" Relationship="SmartPrintModel.FkProveeOtros" FromRole="OtrosServicios" ToRole="Proveedores" />
+  </EntityType>
+  <EntityType Name="Proveedores">
+    <Key>
+      <PropertyRef Name="Nit" />
+    </Key>
+    <Property Name="Nit" Type="Int32" Nullable="false" />
+    <Property Name="RazonSocial" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Contacto" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Direccion" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Telefono" Type="Int32" Nullable="false" />
+    <Property Name="Ext" Type="Int32" />
+    <Property Name="Fax" Type="Int32" />
+    <Property Name="Celular" Type="Int32" Nullable="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Observaciones" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Habilitar" Type="String" Nullable="false" MaxLength="1" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="OtrosServicios" Relationship="SmartPrintModel.FkProveeOtros" FromRole="Proveedores" ToRole="OtrosServicios" />
+  </EntityType>
+  <EntityType Name="Remisión">
+    <Key>
+      <PropertyRef Name="NumeroRemision" />
+    </Key>
+    <Property Name="NumeroRemision" Type="Int32" Nullable="false" />
+    <Property Name="CcNit" Type="Int32" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Direccion" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Telefono" Type="Int32" Nullable="false" />
+    <Property Name="Cargo" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="FechaRemision" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="FechaVencimiento" Type="DateTime" Precision="0" />
+    <Property Name="Observaciones" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ValorTotal" Type="Double" Nullable="false" />
+    <Property Name="Item" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Cliente" Relationship="SmartPrintModel.FkRemisionCliente" FromRole="Remisión" ToRole="Cliente" />
+    <NavigationProperty Name="OrdenServicio" Relationship="SmartPrintModel.FkOrdenRemision" FromRole="Remisión" ToRole="OrdenServicio" />
+    <NavigationProperty Name="RemisionServicos" Relationship="SmartPrintModel.FkNumeroRs" FromRole="Remisión" ToRole="RemisionServicos" />
+    <NavigationProperty Name="RemisionOtroServicios" Relationship="SmartPrintModel.PkRemiOtroServicio" FromRole="Remisión" ToRole="RemisionOtroServicios" />
+  </EntityType>
+  <EntityType Name="RemisionOtroServicios">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" />
+    <Property Name="NumeroRemision" Type="Int32" />
+    <Property Name="CodigoOtroServicio" Type="Int32" />
+    <NavigationProperty Name="OtrosServicios" Relationship="SmartPrintModel.CodOS" FromRole="RemisionOtroServicios" ToRole="OtrosServicios" />
+    <NavigationProperty Name="Remisión" Relationship="SmartPrintModel.PkRemiOtroServicio" FromRole="RemisionOtroServicios" ToRole="Remisión" />
+  </EntityType>
+  <EntityType Name="RemisionServicos">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" />
+    <Property Name="NumeroRemision" Type="Int32" />
+    <Property Name="Item" Type="Int32" />
+    <Property Name="ValorUnitario" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Remisión" Relationship="SmartPrintModel.FkNumeroRs" FromRole="RemisionServicos" ToRole="Remisión" />
+    <NavigationProperty Name="Servicios" Relationship="SmartPrintModel.FkItemRemiServi" FromRole="RemisionServicos" ToRole="Servicios" />
+  </EntityType>
+  <EntityType Name="Servicios">
+    <Key>
+      <PropertyRef Name="Item" />
+    </Key>
+    <Property Name="Nombre" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Tipo" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Item" Type="Int32" Nullable="false" />
+    <Property Name="Observaciones" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="RemisionServicos" Relationship="SmartPrintModel.FkItemRemiServi" FromRole="Servicios" ToRole="RemisionServicos" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="CedulaEmpleado" />
+    </Key>
+    <Property Name="CedulaEmpleado" Type="Int32" Nullable="false" />
+    <Property Name="Usuario" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Contraseña" Type="Binary" Nullable="false" MaxLength="46" FixedLength="false" />
+    <Property Name="Perfil" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Estado" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Empleado" Relationship="SmartPrintModel.FkUsuarioEmpleado" FromRole="Usuarios" ToRole="Empleado" />
+  </EntityType>
+  <Association Name="FkRemisionCliente">
+    <End Role="Cliente" Type="SmartPrintModel.Cliente" Multiplicity="0..1" />
+    <End Role="Remisión" Type="SmartPrintModel.Remisión" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Cedula" />
+      </Principal>
+      <Dependent Role="Remisión">
+        <PropertyRef Name="CcNit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkUsuarioEmpleado">
+    <End Role="Empleado" Type="SmartPrintModel.Empleado" Multiplicity="1" />
+    <End Role="Usuarios" Type="SmartPrintModel.Usuarios" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="CedulaEmpleado" />
+      </Principal>
+      <Dependent Role="Usuarios">
+        <PropertyRef Name="CedulaEmpleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkFacturaOrden">
+    <End Role="OrdenServicio" Type="SmartPrintModel.OrdenServicio" Multiplicity="0..1" />
+    <End Role="Factura" Type="SmartPrintModel.Factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrdenServicio">
+        <PropertyRef Name="NumeroOrden" />
+      </Principal>
+      <Dependent Role="Factura">
+        <PropertyRef Name="NumeroOrdSer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkOrdenRemision">
+    <End Role="Remisión" Type="SmartPrintModel.Remisión" Multiplicity="0..1" />
+    <End Role="OrdenServicio" Type="SmartPrintModel.OrdenServicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Remisión">
+        <PropertyRef Name="NumeroRemision" />
+      </Principal>
+      <Dependent Role="OrdenServicio">
+        <PropertyRef Name="NumeroRemision" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CodOS">
+    <End Role="OtrosServicios" Type="SmartPrintModel.OtrosServicios" Multiplicity="0..1" />
+    <End Role="RemisionOtroServicios" Type="SmartPrintModel.RemisionOtroServicios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OtrosServicios">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="RemisionOtroServicios">
+        <PropertyRef Name="CodigoOtroServicio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkProveeOtros">
+    <End Role="Proveedores" Type="SmartPrintModel.Proveedores" Multiplicity="0..1" />
+    <End Role="OtrosServicios" Type="SmartPrintModel.OtrosServicios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedores">
+        <PropertyRef Name="Nit" />
+      </Principal>
+      <Dependent Role="OtrosServicios">
+        <PropertyRef Name="Idproveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkNumeroRs">
+    <End Role="Remisión" Type="SmartPrintModel.Remisión" Multiplicity="0..1" />
+    <End Role="RemisionServicos" Type="SmartPrintModel.RemisionServicos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Remisión">
+        <PropertyRef Name="NumeroRemision" />
+      </Principal>
+      <Dependent Role="RemisionServicos">
+        <PropertyRef Name="NumeroRemision" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PkRemiOtroServicio">
+    <End Role="Remisión" Type="SmartPrintModel.Remisión" Multiplicity="0..1" />
+    <End Role="RemisionOtroServicios" Type="SmartPrintModel.RemisionOtroServicios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Remisión">
+        <PropertyRef Name="NumeroRemision" />
+      </Principal>
+      <Dependent Role="RemisionOtroServicios">
+        <PropertyRef Name="NumeroRemision" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkItemRemiServi">
+    <End Role="Servicios" Type="SmartPrintModel.Servicios" Multiplicity="0..1" />
+    <End Role="RemisionServicos" Type="SmartPrintModel.RemisionServicos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Servicios">
+        <PropertyRef Name="Item" />
+      </Principal>
+      <Dependent Role="RemisionServicos">
+        <PropertyRef Name="Item" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

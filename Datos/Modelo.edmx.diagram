@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="524c6a6ca5024d5c89fcbaa1451822d9" Name="Diagram1" ZoomLevel="65">
+        <EntityTypeShape EntityType="SmartPrintModel.OtrosServicios" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartPrintModel.Proveedores" Width="1.5" PointX="0.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartPrintModel.Remision" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartPrintModel.RemisionServicos" Width="1.5" PointX="8.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartPrintModel.Servicios" Width="1.5" PointX="6" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartPrintModel.Usuarios" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartPrintModel.MostrarComboProveedor" Width="1.5" PointX="8.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartPrintModel.VistaOtrosServicios" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartPrintModel.VistaServicios" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="SmartPrintModel.FkProveeOtros" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartPrintModel.FK_RemisionServicos_Remision" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartPrintModel.FkItemRemiServi" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="SmartPrintModel.Empleado" Width="1.5" PointX="3" PointY="2.75" />
+        <AssociationConnector Association="SmartPrintModel.FkUsuarioEmpleado" />
+        <EntityTypeShape EntityType="SmartPrintModel.Cliente" Width="1.5" PointX="0.75" PointY="8.5" />
+        <EntityTypeShape EntityType="SmartPrintModel.OrdenServicio" Width="1.5" PointX="5.25" PointY="7.25" />
+        <AssociationConnector Association="SmartPrintModel.fkCedulaOrden" />
+        <AssociationConnector Association="SmartPrintModel.FkRemisionCliente" />
+        <AssociationConnector Association="SmartPrintModel.fkEmpleadoOrden" />
+        <AssociationConnector Association="SmartPrintModel.fkNumeroRemision" />
+        <EntityTypeShape EntityType="SmartPrintModel.Factura" Width="1.5" PointX="7.5" PointY="13.875" />
+        <AssociationConnector Association="SmartPrintModel.pkCCFac" />
+        <AssociationConnector Association="SmartPrintModel.FKOrden" />
+        <EntityTypeShape EntityType="SmartPrintModel.VistaMora" Width="1.5" PointX="13.375" PointY="0.75" />
+        <EntityTypeShape EntityType="SmartPrintModel.VistaEmpleados" Width="1.5" PointX="9.375" PointY="0.75" />
+        <EntityTypeShape EntityType="SmartPrintModel.VistaUsuarios" Width="1.5" PointX="10.375" PointY="11.75" />
+        <AssociationConnector Association="SmartPrintModel.fk_RemiFac" />
+        <EntityTypeShape EntityType="SmartPrintModel.Dian" Width="1.5" PointX="12.375" PointY="11.75" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
